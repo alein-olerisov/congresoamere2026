@@ -21,7 +21,7 @@
                    Botón 2 (asistentes): #003049 / hover: #669bbc
                    Footer: #003049 (azul oscuro)
                    Secciones: #FFFFFF y #FFFDF5 (blanco / amarillo extra suave)
-                   Bienvenida: #fdf0d5 (crema)
+                   Bienvenida: #F2F2F2 (gris claro)
                    ============================================================ */
 
         /* ---------- RESET Y BASE ---------- */
@@ -124,7 +124,7 @@
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
             transform: translateY(-120%);
             transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            z-index: 99;
+            z-index: 999;
             border-bottom: 2px solid rgba(212, 168, 67, 0.2);
         }
 
@@ -177,7 +177,7 @@
             background-color: #FFFDF5;
         }
 
-        /* BIENVENIDA: fondo #fdf0d5 */
+        /* BIENVENIDA: fondo #F2F2F2 */
         #bienvenida {
             background-color: #F2F2F2;
             padding-top: 40px;
@@ -209,6 +209,27 @@
 
         #bienvenida p:last-of-type {
             margin-bottom: 32px;
+        }
+
+        /* Texto "Convocatoria" arriba del banner */
+        .texto-convocatoria {
+            text-align: center;
+            font-size: 1.12rem;
+            color: #2C2C2C;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        /* Texto en itálicas debajo de los botones */
+        .texto-postulacion {
+            text-align: center;
+            font-size: 1.12rem;
+            color: #4A4A4A;
+            margin-top: 24px;
+            font-style: italic;
+            max-width: 860px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* Banner imagen linkeable */
@@ -245,7 +266,6 @@
             gap: 20px;
             margin-top: 12px;
             justify-content: center;
-            /* <-- CENTRADO */
         }
 
         .btn {
@@ -557,7 +577,7 @@
     </nav>
 
     <!-- ============================================================
-    SECCIÓN BIENVENIDA (fondo #fdf0d5)
+    SECCIÓN BIENVENIDA
     ============================================================ -->
     <section id="bienvenida">
         <div class="contenedor">
@@ -587,6 +607,11 @@
                 <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.
             </p>
 
+            <!-- Texto "Convocatoria" arriba del banner -->
+            <p class="texto-convocatoria" id="textoConvocatoria">
+                Convocatoria
+            </p>
+
             <!-- Banner -->
             <div class="banner-wrapper" id="convocatoria">
                 <a id="bannerLink" href="pdf/CONVOCATORIA CONGRESO ES.pdf" target="_blank">
@@ -599,6 +624,11 @@
                 <a id="btnPonentes" href="#" class="btn btn-ponentes">Registro de ponentes</a>
                 <a id="btnAsistentes" href="#" class="btn btn-asistentes">Registro de asistentes</a>
             </div>
+
+            <!-- Texto en itálicas debajo de los botones -->
+            <p class="texto-postulacion" id="textoPostulacion">
+                Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a congresosamere@gmail.com para postular y considerar su participación.
+            </p>
 
         </div>
     </section>
@@ -751,6 +781,8 @@
                 tituloCronograma: document.getElementById('tituloCronograma'),
                 textoCronograma: document.getElementById('textoCronograma'),
                 textoCronograma2: document.getElementById('textoCronograma2'),
+                textoConvocatoria: document.getElementById('textoConvocatoria'),
+                textoPostulacion: document.getElementById('textoPostulacion'),
             };
 
             // Imágenes y enlaces
@@ -787,13 +819,16 @@
                     tituloCronograma: 'Cronograma',
                     textoCronograma: '📅 Próximamente — ¡Estén atentos!',
                     textoCronograma2: 'En cuanto tengamos la lista de participantes, publicaremos aquí el programa detallado.',
+                    // Nuevos textos
+                    textoConvocatoria: 'Convocatoria',
+                    textoPostulacion: 'Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a congresosamere@gmail.com para postular y considerar su participación.',
                     // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-ES.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-ES.png',
                     bannerImgSrc: 'img/Convocatoria ESP.png',
                     bannerPdf: 'pdf/CONVOCATORIA CONGRESO ES.pdf',
-                    btnPonentesHref: 'https://forms.gle/spc1LyNi1KEGPnNU9', // Cambiar por URL real
-                    btnAsistentesHref: 'https://forms.gle/32rpY7mQztqyUm8d7', // Cambiar por URL real
+                    btnPonentesHref: 'https://forms.gle/spc1LyNi1KEGPnNU9',
+                    btnAsistentesHref: 'https://forms.gle/32rpY7mQztqyUm8d7',
                 },
                 pt: {
                     // Bienvenida
@@ -819,13 +854,16 @@
                     tituloCronograma: 'Cronograma',
                     textoCronograma: '📅 Em breve — Fiquem atentos!',
                     textoCronograma2: 'Assim que tivermos a lista de participantes, publicaremos aqui o programa detalhado.',
+                    // Nuevos textos
+                    textoConvocatoria: 'Convocatória',
+                    textoPostulacion: 'Se você estiver vendo esta convocatória após 25 de julho, envie um e-mail para congresosamere@gmail.com para se inscrever e ter sua participação considerada.',
                     // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-PT.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-PT.png',
                     bannerImgSrc: 'img/Convocatoria PR.png',
                     bannerPdf: 'pdf/CONVOCATÓRIA CONGRESSO PT.pdf',
-                    btnPonentesHref: 'https://forms.gle/uCK5k1xzQdnMbzW76', // Cambiar por URL real
-                    btnAsistentesHref: 'https://forms.gle/dJB3zHS4giZQG5fV7', // Cambiar por URL real
+                    btnPonentesHref: 'https://forms.gle/uCK5k1xzQdnMbzW76',
+                    btnAsistentesHref: 'https://forms.gle/dJB3zHS4giZQG5fV7',
                 },
                 ru: {
                     // Bienvenida
@@ -851,13 +889,16 @@
                     tituloCronograma: 'Расписание',
                     textoCronograma: '📅 Скоро — Следите за обновлениями!',
                     textoCronograma2: 'Как только у нас будет список участников, мы опубликуем здесь подробную программу.',
+                    // Nuevos textos
+                    textoConvocatoria: 'Информационное письмо',
+                    textoPostulacion: 'Если вы увидели это объявление после 25 июля, отправьте письмо на congresosamere@gmail.com для подачи заявки и рассмотрения вашего участия.',
                     // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-RU.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-RUs.png',
                     bannerImgSrc: 'img/Copia de Convocatoria RU (1).png',
                     bannerPdf: 'pdf/CONVOCATORIA CONGRESO RU.pdf',
-                    btnPonentesHref: 'https://forms.gle/3Nw86gkZJdKKiJFv9', // Cambiar por URL real
-                    btnAsistentesHref: 'https://forms.gle/M3VEpomqzZbGHkUw6', // Cambiar por URL real
+                    btnPonentesHref: 'https://forms.gle/3Nw86gkZJdKKiJFv9',
+                    btnAsistentesHref: 'https://forms.gle/M3VEpomqzZbGHkUw6',
                 }
             };
 
@@ -894,15 +935,19 @@
                 if (elementosTexto.textoCronograma) elementosTexto.textoCronograma.innerHTML = t.textoCronograma;
                 if (elementosTexto.textoCronograma2) elementosTexto.textoCronograma2.innerHTML = t.textoCronograma2;
 
-                // 5. Imágenes (header y footer)
+                // 5. Nuevos textos (convocatoria y postulación)
+                if (elementosTexto.textoConvocatoria) elementosTexto.textoConvocatoria.innerHTML = t.textoConvocatoria;
+                if (elementosTexto.textoPostulacion) elementosTexto.textoPostulacion.innerHTML = t.textoPostulacion;
+
+                // 6. Imágenes (header y footer)
                 if (logoHeader) logoHeader.src = t.logoHeaderSrc;
                 if (logoFooter) logoFooter.src = t.logoFooterSrc;
 
-                // 6. Banner (imagen y PDF)
+                // 7. Banner (imagen y PDF)
                 if (bannerImg) bannerImg.src = t.bannerImgSrc;
                 if (bannerLink) bannerLink.href = t.bannerPdf;
 
-                // 7. Enlaces de botones
+                // 8. Enlaces de botones
                 if (btnPonentesLink) btnPonentesLink.href = t.btnPonentesHref;
                 if (btnAsistentesLink) btnAsistentesLink.href = t.btnAsistentesHref;
 
