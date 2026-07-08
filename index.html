@@ -122,7 +122,8 @@
             backdrop-filter: blur(6px);
             padding: 10px 0;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-            transform: translateY(-120%);
+            transform: translateY(-200%);
+            /* <--- CORREGIDO: antes era -120% */
             transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             z-index: 999;
             border-bottom: 2px solid rgba(212, 168, 67, 0.2);
@@ -211,13 +212,15 @@
             margin-bottom: 32px;
         }
 
-        /* Texto "Convocatoria" arriba del banner */
+        /* Texto "Convocatoria" arriba del banner - CORREGIDO con max-width:100% */
         .texto-convocatoria {
             text-align: center;
             font-size: 1.12rem;
             color: #2C2C2C;
             margin-bottom: 8px;
             font-weight: 500;
+            max-width: 100%;
+            /* <--- CORREGIDO: antes heredaba max-width:860px */
         }
 
         /* Texto en itálicas debajo de los botones */
@@ -607,7 +610,7 @@
                 <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.
             </p>
 
-            <!-- Texto "Convocatoria" arriba del banner -->
+            <!-- Texto "Convocatoria" arriba del banner (con max-width:100% para centrado) -->
             <p class="texto-convocatoria" id="textoConvocatoria">
                 Convocatoria
             </p>
