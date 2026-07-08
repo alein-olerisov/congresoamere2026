@@ -5,26 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diálogo de dos mundos · Congreso 2026</title>
 
-    <!-- Google Fonts (Jost + Roboto, con soporte cirílico) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 
     <style>
         /* ============================================================
-                   COLORES (con anotaciones)
-                   Fondo general: #FFF8E7 (amarillo suave)
-                   Header: #FFEBB8 (amarillo más fuerte)
-                   Texto principal: #2C2C2C (gris oscuro)
-                   Texto secundario: #4A4A4A (gris medio)
-                   Botón 1 (ponentes): #780000 / hover: #c1121f
-                   Botón 2 (asistentes): #003049 / hover: #669bbc
-                   Footer: #003049 (azul oscuro)
-                   Secciones: #FFFFFF y #FFFDF5 (blanco / amarillo extra suave)
-                   Bienvenida: #F2F2F2 (gris claro)
+                   COLORES
                    ============================================================ */
-
-        /* ---------- RESET Y BASE ---------- */
         * {
             margin: 0;
             padding: 0;
@@ -115,15 +104,16 @@
         /* ---------- MENÚ FLOTANTE ---------- */
         .menu-flotante {
             position: fixed;
-            top: 80px;
+            top: 0;
+            /* <--- CAMBIADO: antes era 80px */
             left: 0;
             width: 100%;
             background-color: rgba(255, 235, 184, 0.94);
             backdrop-filter: blur(6px);
             padding: 10px 0;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-            transform: translateY(-200%);
-            /* <--- CORREGIDO: antes era -120% */
+            transform: translateY(-150%);
+            /* <--- CAMBIADO: antes era -200% */
             transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             z-index: 999;
             border-bottom: 2px solid rgba(212, 168, 67, 0.2);
@@ -196,10 +186,6 @@
             text-align: center;
         }
 
-        .texto-gris {
-            color: #4A4A4A;
-        }
-
         /* ---------- BIENVENIDA ---------- */
         #bienvenida p {
             font-size: 1.12rem;
@@ -212,15 +198,14 @@
             margin-bottom: 32px;
         }
 
-        /* Texto "Convocatoria" arriba del banner - CORREGIDO con max-width:100% */
+        /* Texto "Convocatoria" - MISMO ESTILO que "Instituciones organizadoras" y "Cronograma" */
         .texto-convocatoria {
-            text-align: center;
-            font-size: 1.12rem;
+            font-size: 2.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
             color: #2C2C2C;
-            margin-bottom: 8px;
-            font-weight: 500;
-            max-width: 100%;
-            /* <--- CORREGIDO: antes heredaba max-width:860px */
+            text-align: center;
         }
 
         /* Texto en itálicas debajo de los botones */
@@ -289,7 +274,7 @@
             transform: translateY(0);
         }
 
-        /* Botón 1: Ponentes - #780000 → hover #c1121f */
+        /* Botón 1: Ponentes */
         .btn-ponentes {
             background-color: #780000;
             box-shadow: 0 4px 12px rgba(120, 0, 0, 0.30);
@@ -301,7 +286,7 @@
             box-shadow: 0 8px 20px rgba(193, 18, 31, 0.35);
         }
 
-        /* Botón 2: Asistentes - #003049 → hover #669bbc */
+        /* Botón 2: Asistentes */
         .btn-asistentes {
             background-color: #003049;
             box-shadow: 0 4px 12px rgba(0, 48, 73, 0.30);
@@ -522,6 +507,10 @@
                 font-size: 1.7rem;
             }
 
+            .texto-convocatoria {
+                font-size: 1.7rem;
+            }
+
             .banner-wrapper img {
                 max-height: 200px;
             }
@@ -610,10 +599,10 @@
                 <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.
             </p>
 
-            <!-- Texto "Convocatoria" arriba del banner (con max-width:100% para centrado) -->
-            <p class="texto-convocatoria" id="textoConvocatoria">
+            <!-- Texto "Convocatoria" con el MISMO ESTILO que "Instituciones organizadoras" -->
+            <h2 class="texto-convocatoria" id="textoConvocatoria">
                 Convocatoria
-            </p>
+            </h2>
 
             <!-- Banner -->
             <div class="banner-wrapper" id="convocatoria">
@@ -752,7 +741,7 @@
     </footer>
 
     <!-- ============================================================
-    JAVASCRIPT COMPLETO
+    JAVASCRIPT
     ============================================================ -->
     <script>
         (function() {
@@ -762,7 +751,6 @@
             const menuFlotante = document.getElementById('menuFlotante');
             const selectorIdioma = document.getElementById('selectorIdioma');
 
-            // Textos
             const elementosTexto = {
                 tituloBienvenida: document.getElementById('tituloBienvenida'),
                 textoIntro1: document.getElementById('textoIntro1'),
@@ -788,7 +776,6 @@
                 textoPostulacion: document.getElementById('textoPostulacion'),
             };
 
-            // Imágenes y enlaces
             const logoHeader = document.getElementById('logoHeader');
             const logoFooter = document.getElementById('logoFooter');
             const bannerImg = document.getElementById('bannerImg');
@@ -796,17 +783,14 @@
             const btnPonentesLink = document.getElementById('btnPonentes');
             const btnAsistentesLink = document.getElementById('btnAsistentes');
 
-            // ---------- DICCIONARIO DE TRADUCCIONES ----------
             const traducciones = {
                 es: {
-                    // Bienvenida
                     tituloBienvenida: 'Les invitamos a participar',
                     textoIntro1: 'En el congreso <strong>"Diálogo de dos mundos: lengua y cultura rusas en el contexto iberoamericano"</strong>, que se llevará a cabo los días <strong>martes 6 y miércoles 7 de octubre de 2026</strong>, en la <strong>Unidad de Posgrado de la Universidad Nacional Autónoma de México (UNAM)</strong>.',
                     textoIntro2: 'Dirigido a todos aquellos que se desempeñen profesional y académicamente en el mundo de la rusística en los países de América Latina, el Caribe, España y Portugal, el congreso <strong>"Diálogo de dos mundos: lengua y cultura rusas en el contexto iberoamericano"</strong> constituye un espacio de encuentro y visibilidad del nutrido intercambio académico y cultural entre nuestras regiones.',
                     textoIntro3: 'Invitamos a docentes, investigadores, traductores, intérpretes, especialistas y estudiantes cuyas actividades se desarrollen en los ámbitos de la lengua, literatura, cultura e historia rusas en relación con las iberoamericanas a compartir sus trabajos y experiencias en este primer congreso organizado por la <strong>Fundación Russkiy Mir</strong> y la <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.',
                     btnPonentes: 'Registro de ponentes',
                     btnAsistentes: 'Registro de asistentes',
-                    // Organizadores
                     tituloOrganizadores: 'Instituciones organizadoras',
                     org1Titulo: 'Fondo Russkiy Mir',
                     org1Desc: 'Creado en 2007, el Fondo Russkiy Mir es una organización estatal de la Federación de Rusia que se dedica a apoyar y promocionar la lengua rusa en el mundo, así como a reforzar su posición como lengua de comunicación internacional e instrumento clave para aumentar la relevancia de la Federación Rusa en el ámbito humanitario mundial.',
@@ -818,14 +802,11 @@
                     org4Desc: 'Caracterizado por su enfoque interdisciplinario y crítico, el Programa de Posgrado en Estudios Latinoamericanos se orienta al análisis de los procesos históricos, económicos, políticos, sociales y culturales de América Latina y el Caribe. A lo largo de su historia, el Posgrado en Estudios Latinoamericanos de la UNAM se ha consolidado como uno de los referentes más importantes en América Latina para la formación de investigadores y docentes especializados en la región, manteniendo una estrecha vinculación con universidades, centros de investigación y redes académicas latinoamericanas e internacionales.',
                     org5Titulo: 'Escuela Nacional de Lenguas, Lingüística y Traducción (ENALLT)',
                     org5Desc: 'La Escuela Nacional de Lenguas, Lingüística y Traducción de la UNAM se dedica a formar profesionales competentes, críticos e innovadores en la enseñanza de lenguas nacionales y extranjeras, en la lingüística aplicada y en la traducción, comprometidos con el desarrollo social y cultural de México y con los retos globales del siglo XXI. Para ello, la ENALLT impulsa la excelencia académica mediante modelos presenciales, híbridos y a distancia; promueve la certificación y actualización continua de recursos humanos; y genera investigación de calidad en lingüística, lingüística aplicada y traducción con el fin de contribuir tanto a la comunidad universitaria como a la sociedad en general. Todo lo anterior dentro en un marco de inclusión, equidad, sostenibilidad y responsabilidad social.',
-                    // Cronograma
                     tituloCronograma: 'Cronograma',
                     textoCronograma: '📅 Próximamente — ¡Estén atentos!',
                     textoCronograma2: 'En cuanto tengamos la lista de participantes, publicaremos aquí el programa detallado.',
-                    // Nuevos textos
                     textoConvocatoria: 'Convocatoria',
                     textoPostulacion: 'Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a congresosamere@gmail.com para postular y considerar su participación.',
-                    // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-ES.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-ES.png',
                     bannerImgSrc: 'img/Convocatoria ESP.png',
@@ -834,14 +815,12 @@
                     btnAsistentesHref: 'https://forms.gle/32rpY7mQztqyUm8d7',
                 },
                 pt: {
-                    // Bienvenida
                     tituloBienvenida: 'Bem-vindos',
                     textoIntro1: 'Para participar do congresso <strong>"Diálogo entre dois mundos: língua e cultura russa no contexto iberoamericano"</strong>, que será realizado nos dias <strong>6 (terça-feira) e 7 (quarta-feira) de outubro de 2026</strong>, na <strong>Unidade de Pós-Graduação da Universidade Nacional Autônoma do México (UNAM).</strong>.',
                     textoIntro2: 'Destinado a todos os que desempenham atividades acadêmicas e profissionais no mundo da russística nos países da América Latina, Caribe, Espanha e Portugal, o congresso “Diálogo entre dois mundos: língua e cultura russa no contexto ibero-americano constitui um espaço de encontro e visibilidade da troca acadêmica e cultural profícua entre nossas regiões.',
                     textoIntro3: 'Convidamos docentes, pesquisadores, intérpretes, especialistas e estudantes cujas atividades se desenvolvam no âmbito da língua, literatura e história russas, na relação com as respectivas línguas, literaturas e histórias ibero-americanas a compartilhar seus trabalhos e experiências neste primeiro congresso organizado pela Fundação Russkiy Mir e pela Rede Iberoamericana de Russistas e Eslavistas. Serão emitidos certificados de participação.',
                     btnPonentes: 'Inscrição para palestrantes',
                     btnAsistentes: 'Inscrição para ouvintes',
-                    // Organizadores
                     tituloOrganizadores: 'Instituições organizadoras',
                     org1Titulo: 'Fundação Russkiy Mir',
                     org1Desc: 'Criada em 2007, a Fundação Russkiy Mir é uma organização estatal da Federação da Rússia dedicada ao apoio e à promoção da língua russa em todo o mundo, bem como ao fortalecimento de sua posição como língua de comunicação internacional e instrumento estratégico para ampliar a presença da Federação da Rússia no âmbito humanitário internacional.',
@@ -853,14 +832,11 @@
                     org4Desc: 'Caracterizado por sua abordagem interdisciplinar e crítica, o Programa de Pós-Graduação em Estudos Latino-Americanos dedica-se à análise dos processos históricos, econômicos, políticos, sociais e culturais da América Latina e do Caribe.<br>Ao longo de sua trajetória, o Programa de Pós-Graduação em Estudos Latino-Americanos da UNAM consolidou-se como uma das principais referências da América Latina na formação de pesquisadores e docentes especializados na região, mantendo estreita colaboração com universidades, centros de pesquisa e redes acadêmicas latino-americanas e internacionais.',
                     org5Titulo: 'Escola Nacional de Línguas, Linguística e Tradução (ENALLT)',
                     org5Desc: 'A Escola Nacional de Línguas, Linguística e Tradução da UNAM dedica-se à formação de profissionais competentes, críticos e inovadores nas áreas do ensino de línguas nacionais e estrangeiras, da linguística aplicada e da tradução, comprometidos com o desenvolvimento social e cultural do México e com os desafios globais do século XXI.<br>Para isso, promove a excelência acadêmica por meio de modalidades presenciais, híbridas e a distância; incentiva a certificação e a formação continuada de recursos humanos; e desenvolve pesquisas de excelência em linguística, linguística aplicada e tradução, contribuindo tanto para a comunidade universitária quanto para a sociedade em geral.<br>Todas essas ações são realizadas com base nos princípios da inclusão, da equidade, da sustentabilidade e da responsabilidade social.',
-                    // Cronograma
                     tituloCronograma: 'Cronograma',
                     textoCronograma: '📅 Em breve — Fiquem atentos!',
                     textoCronograma2: 'Assim que tivermos a lista de participantes, publicaremos aqui o programa detalhado.',
-                    // Nuevos textos
                     textoConvocatoria: 'Convocatória',
                     textoPostulacion: 'Se você estiver vendo esta convocatória após 25 de julho, envie um e-mail para congresosamere@gmail.com para se inscrever e ter sua participação considerada.',
-                    // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-PT.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-PT.png',
                     bannerImgSrc: 'img/Convocatoria PR.png',
@@ -869,14 +845,12 @@
                     btnAsistentesHref: 'https://forms.gle/dJB3zHS4giZQG5fV7',
                 },
                 ru: {
-                    // Bienvenida
                     tituloBienvenida: 'Добро пожаловать',
                     textoIntro1: 'На конгресс <strong>"Диалог двух миров: русский язык и культура в ибероамериканском контексте"</strong>, который состоится <strong>6 и 7 октября 2026 года (вторник и среда)</strong> в <strong>Центре последипломного образования Национального автономного университета Мексики (UNAM).</strong>.',
                     textoIntro2: 'Конгресс ориентирован на специалистов и исследователей, работающих в области русистики в странах Латинской Америки, Карибского бассейна, Испании и Португалии. Он призван стать пространством для встречи и платформой для представления результатов активного академического и культурного обмена между нашими регионами.',
                     textoIntro3: 'Приглашаем преподавателей, исследователей, переводчиков ,специалистов и студентов, чья деятельность связана с русским языком, литературой, культурой и историей в их взаимосвязи с ибероамериканским пространством, поделиться в рамках данного мероприятия своими исследованиями и практическим опытом.<br>По итогам участия будут выданы соответствующие сертификаты.',
                     btnPonentes: 'Регистрация докладчиков',
                     btnAsistentes: 'Регистрация слушателей',
-                    // Organizadores
                     tituloOrganizadores: 'Организаторы',
                     org1Titulo: 'Фонд «Русский мир»',
                     org1Desc: 'Основанный в 2007 году, Фонд «Русский мир» является государственной организацией Российской Федерации, деятельность которой направлена на поддержку и продвижение русского языка во всём мире, а также на укрепление его позиций как языка международного общения и важного инструмента повышения роли Российской Федерации в мировой гуманитарной сфере.',
@@ -888,14 +862,11 @@
                     org4Desc: 'Программа последипломного образования по латиноамериканским исследованиям отличается междисциплинарным и критическим подходом к изучению исторических, экономических, политических, социальных и культурных процессов в странах Латинской Америки и Карибского бассейна.<br>За годы своего существования программа Национального автономного университета Мексики (UNAM) стала одним из ведущих центров подготовки исследователей и преподавателей, специализирующихся на изучении региона. Она поддерживает тесное сотрудничество с университетами, исследовательскими центрами и академическими сетями Латинской Америки и других стран мира.',
                     org5Titulo: 'Национальная школа языков, лингвистики и перевода (ENALLT)',
                     org5Desc: 'Национальная школа языков, лингвистики и перевода Национального автономного университета Мексики (UNAM) осуществляет подготовку высококвалифицированных, критически мыслящих и инновационно ориентированных специалистов в области преподавания национальных и иностранных языков, прикладной лингвистики и перевода, стремящихся содействовать социальному и культурному развитию Мексики и отвечать на вызовы XXI века.<br>Для достижения этих целей ENALLT развивает академическое превосходство посредством очных, смешанных и дистанционных образовательных моделей, способствует сертификации и непрерывному повышению квалификации специалистов, а также проводит фундаментальные и прикладные исследования в области лингвистики, прикладной лингвистики и перевода, направленные на развитие университетского сообщества и общества в целом.<br>Вся деятельность школы осуществляется на принципах инклюзивности, равенства, устойчивого развития и социальной ответственности.',
-                    // Cronograma
                     tituloCronograma: 'Расписание',
                     textoCronograma: '📅 Скоро — Следите за обновлениями!',
                     textoCronograma2: 'Как только у нас будет список участников, мы опубликуем здесь подробную программу.',
-                    // Nuevos textos
                     textoConvocatoria: 'Информационное письмо',
                     textoPostulacion: 'Если вы увидели это объявление после 25 июля, отправьте письмо на congresosamere@gmail.com для подачи заявки и рассмотрения вашего участия.',
-                    // Imágenes y enlaces
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-RU.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-RUs.png',
                     bannerImgSrc: 'img/Copia de Convocatoria RU (1).png',
@@ -905,22 +876,16 @@
                 }
             };
 
-            // ---------- FUNCIÓN CAMBIAR IDIOMA ----------
             function cambiarIdioma(idioma) {
                 const t = traducciones[idioma];
                 if (!t) return;
 
-                // 1. Textos de bienvenida
                 if (elementosTexto.tituloBienvenida) elementosTexto.tituloBienvenida.innerHTML = t.tituloBienvenida;
                 if (elementosTexto.textoIntro1) elementosTexto.textoIntro1.innerHTML = t.textoIntro1;
                 if (elementosTexto.textoIntro2) elementosTexto.textoIntro2.innerHTML = t.textoIntro2;
                 if (elementosTexto.textoIntro3) elementosTexto.textoIntro3.innerHTML = t.textoIntro3;
-
-                // 2. Botones
                 if (elementosTexto.btnPonentes) elementosTexto.btnPonentes.innerHTML = t.btnPonentes;
                 if (elementosTexto.btnAsistentes) elementosTexto.btnAsistentes.innerHTML = t.btnAsistentes;
-
-                // 3. Organizadores
                 if (elementosTexto.tituloOrganizadores) elementosTexto.tituloOrganizadores.innerHTML = t.tituloOrganizadores;
                 if (elementosTexto.org1Titulo) elementosTexto.org1Titulo.innerHTML = t.org1Titulo;
                 if (elementosTexto.org1Desc) elementosTexto.org1Desc.innerHTML = t.org1Desc;
@@ -932,38 +897,26 @@
                 if (elementosTexto.org4Desc) elementosTexto.org4Desc.innerHTML = t.org4Desc;
                 if (elementosTexto.org5Titulo) elementosTexto.org5Titulo.innerHTML = t.org5Titulo;
                 if (elementosTexto.org5Desc) elementosTexto.org5Desc.innerHTML = t.org5Desc;
-
-                // 4. Cronograma
                 if (elementosTexto.tituloCronograma) elementosTexto.tituloCronograma.innerHTML = t.tituloCronograma;
                 if (elementosTexto.textoCronograma) elementosTexto.textoCronograma.innerHTML = t.textoCronograma;
                 if (elementosTexto.textoCronograma2) elementosTexto.textoCronograma2.innerHTML = t.textoCronograma2;
-
-                // 5. Nuevos textos (convocatoria y postulación)
                 if (elementosTexto.textoConvocatoria) elementosTexto.textoConvocatoria.innerHTML = t.textoConvocatoria;
                 if (elementosTexto.textoPostulacion) elementosTexto.textoPostulacion.innerHTML = t.textoPostulacion;
 
-                // 6. Imágenes (header y footer)
                 if (logoHeader) logoHeader.src = t.logoHeaderSrc;
                 if (logoFooter) logoFooter.src = t.logoFooterSrc;
-
-                // 7. Banner (imagen y PDF)
                 if (bannerImg) bannerImg.src = t.bannerImgSrc;
                 if (bannerLink) bannerLink.href = t.bannerPdf;
-
-                // 8. Enlaces de botones
                 if (btnPonentesLink) btnPonentesLink.href = t.btnPonentesHref;
                 if (btnAsistentesLink) btnAsistentesLink.href = t.btnAsistentesHref;
 
-                // Cambiar el atributo lang
                 document.documentElement.lang = idioma;
             }
 
-            // ---------- EVENTO SELECTOR ----------
             selectorIdioma.addEventListener('change', function() {
                 cambiarIdioma(this.value);
             });
 
-            // ---------- MENÚ FLOTANTE ----------
             let lastScrollY = 0;
             const headerHeight = document.querySelector('header').offsetHeight;
 
@@ -977,7 +930,6 @@
                 lastScrollY = scrollY;
             });
 
-            // ---------- INICIALIZAR ----------
             selectorIdioma.value = 'es';
             cambiarIdioma('es');
 
