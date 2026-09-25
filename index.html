@@ -105,7 +105,6 @@
         .menu-flotante {
             position: fixed;
             top: 0;
-            /* <--- CAMBIADO: antes era 80px */
             left: 0;
             width: 100%;
             background-color: rgba(255, 235, 184, 0.94);
@@ -113,7 +112,6 @@
             padding: 10px 0;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
             transform: translateY(-150%);
-            /* <--- CAMBIADO: antes era -200% */
             transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             z-index: 999;
             border-bottom: 2px solid rgba(212, 168, 67, 0.2);
@@ -168,7 +166,6 @@
             background-color: #FFFDF5;
         }
 
-        /* BIENVENIDA: fondo #F2F2F2 */
         #bienvenida {
             background-color: #F2F2F2;
             padding-top: 40px;
@@ -198,7 +195,6 @@
             margin-bottom: 32px;
         }
 
-        /* Texto "Convocatoria" - MISMO ESTILO que "Instituciones organizadoras" y "Cronograma" */
         .texto-convocatoria {
             font-size: 2.2rem;
             font-weight: 600;
@@ -208,7 +204,6 @@
             text-align: center;
         }
 
-        /* Texto en itálicas debajo de los botones */
         .texto-postulacion {
             text-align: center;
             font-size: 1.12rem;
@@ -247,6 +242,33 @@
             width: auto;
         }
 
+        /* ---------- PROGRAMA ---------- */
+        .programa-wrapper {
+            margin: 24px 0 36px;
+            text-align: center;
+        }
+
+        .programa-wrapper a {
+            display: inline-block;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+            transition: box-shadow 0.3s, transform 0.25s;
+        }
+
+        .programa-wrapper a:hover {
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.14);
+            transform: scale(1.01);
+        }
+
+        .programa-wrapper img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            max-height: 500px;
+            width: auto;
+        }
+
         /* Botones de registro - CENTRADOS */
         .botones-registro {
             display: flex;
@@ -274,7 +296,6 @@
             transform: translateY(0);
         }
 
-        /* Botón 1: Ponentes */
         .btn-ponentes {
             background-color: #780000;
             box-shadow: 0 4px 12px rgba(120, 0, 0, 0.30);
@@ -286,7 +307,6 @@
             box-shadow: 0 8px 20px rgba(193, 18, 31, 0.35);
         }
 
-        /* Botón 2: Asistentes */
         .btn-asistentes {
             background-color: #003049;
             box-shadow: 0 4px 12px rgba(0, 48, 73, 0.30);
@@ -370,23 +390,6 @@
             font-size: 0.92rem;
             color: #7A7A7A;
             margin-top: 4px;
-        }
-
-        /* ---------- CRONOGRAMA ---------- */
-        .proximamente {
-            text-align: center;
-            padding: 30px 0 10px;
-        }
-
-        .proximamente span {
-            display: inline-block;
-            background-color: #FFEBB8;
-            padding: 10px 32px;
-            border-radius: 60px;
-            font-weight: 500;
-            font-size: 1.1rem;
-            color: #7A5F2A;
-            letter-spacing: 0.02em;
         }
 
         /* ---------- FOOTER ---------- */
@@ -514,6 +517,10 @@
             .banner-wrapper img {
                 max-height: 200px;
             }
+
+            .programa-wrapper img {
+                max-height: 300px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -563,7 +570,7 @@
             <a href="#bienvenida">Inicio</a>
             <a href="#convocatoria">Convocatoria</a>
             <a href="#organizadores">Organizadores</a>
-            <a href="#cronograma">Cronograma</a>
+            <a href="#programa">Programa</a>
             <a href="#bienvenida" class="volver-arriba">⬆ Volver arriba</a>
         </div>
     </nav>
@@ -599,27 +606,23 @@
                 <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.
             </p>
 
-            <!-- Texto "Convocatoria" con el MISMO ESTILO que "Instituciones organizadoras" -->
             <h2 class="texto-convocatoria" id="textoConvocatoria">
-                Convocatoria
+                ↓ Convocatoria ↓
             </h2>
 
-            <!-- Banner -->
             <div class="banner-wrapper" id="convocatoria">
                 <a id="bannerLink" href="pdf/CONVOCATORIA CONGRESO ES.pdf" target="_blank">
                     <img id="bannerImg" src="img/Convocatoria ESP.png" alt="Banner oficial de la convocatoria" />
                 </a>
             </div>
 
-            <!-- Botones -->
             <div class="botones-registro">
                 <a id="btnPonentes" href="#" class="btn btn-ponentes">Registro de ponentes</a>
                 <a id="btnAsistentes" href="#" class="btn btn-asistentes">Registro de asistentes</a>
             </div>
 
-            <!-- Texto en itálicas debajo de los botones -->
             <p class="texto-postulacion" id="textoPostulacion">
-                Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a congresosamere@gmail.com para postular y considerar su participación.
+                Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a <a href="mailto:congresosamere@gmail.com" style="color:#c1121f; font-weight:700;">congresosamere@gmail.com</a> para postular y considerar su participación.
             </p>
 
         </div>
@@ -699,17 +702,18 @@
     </section>
 
     <!-- ============================================================
-    CRONOGRAMA
+    SECCIÓN PROGRAMA
     ============================================================ -->
-    <section id="cronograma">
+    <section id="programa">
         <div class="contenedor">
-            <h2 class="seccion-titulo centrado" id="tituloCronograma">Cronograma</h2>
-            <div class="proximamente">
-                <span id="textoCronograma">📅 Próximamente — ¡Estén atentos!</span>
+            <h2 class="seccion-titulo centrado" id="tituloPrograma">Programa</h2>
+
+            <!-- Previsualización clickeable del PDF -->
+            <div class="programa-wrapper">
+                <a id="programaLink" href="pdf/PROGRAMA EN ESPAÑOL_FINAL.pdf" target="_blank">
+                    <img id="programaImg" src="img/PROGRAMA-PREVIEW-ES.png" alt="Previsualización del programa" />
+                </a>
             </div>
-            <p id="textoCronograma2" style="text-align:center; color:#4A4A4A; margin-top:12px;">
-                En cuanto tengamos la lista de participantes, publicaremos aquí el programa detallado.
-            </p>
         </div>
     </section>
 
@@ -769,9 +773,7 @@
                 org4Desc: document.getElementById('org4Desc'),
                 org5Titulo: document.getElementById('org5Titulo'),
                 org5Desc: document.getElementById('org5Desc'),
-                tituloCronograma: document.getElementById('tituloCronograma'),
-                textoCronograma: document.getElementById('textoCronograma'),
-                textoCronograma2: document.getElementById('textoCronograma2'),
+                tituloPrograma: document.getElementById('tituloPrograma'),
                 textoConvocatoria: document.getElementById('textoConvocatoria'),
                 textoPostulacion: document.getElementById('textoPostulacion'),
             };
@@ -782,6 +784,8 @@
             const bannerLink = document.getElementById('bannerLink');
             const btnPonentesLink = document.getElementById('btnPonentes');
             const btnAsistentesLink = document.getElementById('btnAsistentes');
+            const programaImg = document.getElementById('programaImg');
+            const programaLink = document.getElementById('programaLink');
 
             const traducciones = {
                 es: {
@@ -802,11 +806,11 @@
                     org4Desc: 'Caracterizado por su enfoque interdisciplinario y crítico, el Programa de Posgrado en Estudios Latinoamericanos se orienta al análisis de los procesos históricos, económicos, políticos, sociales y culturales de América Latina y el Caribe. A lo largo de su historia, el Posgrado en Estudios Latinoamericanos de la UNAM se ha consolidado como uno de los referentes más importantes en América Latina para la formación de investigadores y docentes especializados en la región, manteniendo una estrecha vinculación con universidades, centros de investigación y redes académicas latinoamericanas e internacionales.',
                     org5Titulo: 'Escuela Nacional de Lenguas, Lingüística y Traducción (ENALLT)',
                     org5Desc: 'La Escuela Nacional de Lenguas, Lingüística y Traducción de la UNAM se dedica a formar profesionales competentes, críticos e innovadores en la enseñanza de lenguas nacionales y extranjeras, en la lingüística aplicada y en la traducción, comprometidos con el desarrollo social y cultural de México y con los retos globales del siglo XXI. Para ello, la ENALLT impulsa la excelencia académica mediante modelos presenciales, híbridos y a distancia; promueve la certificación y actualización continua de recursos humanos; y genera investigación de calidad en lingüística, lingüística aplicada y traducción con el fin de contribuir tanto a la comunidad universitaria como a la sociedad en general. Todo lo anterior dentro en un marco de inclusión, equidad, sostenibilidad y responsabilidad social.',
-                    tituloCronograma: 'Cronograma',
-                    textoCronograma: '📅 Próximamente — ¡Estén atentos!',
-                    textoCronograma2: 'En cuanto tengamos la lista de participantes, publicaremos aquí el programa detallado.',
+                    tituloPrograma: 'Programa',
+                    programaImgSrc: 'img/PROGRAMA-PREVIEW-ES.png',
+                    programaPdf: 'pdf/PROGRAMA EN ESPAÑOL_FINAL.pdf',
                     textoConvocatoria: '↓ Convocatoria ↓',
-                    textoPostulacion: 'Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a <a href="mailto:congresosamere@gmail.com" alias="mail congreso" style="color:#c1121f; color:#c1121f !important; font-weight:700;">congresosamere@gmail.com</a> para postular y considerar su participación.',
+                    textoPostulacion: 'Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a <a href="mailto:congresosamere@gmail.com" style="color:#c1121f; font-weight:700;">congresosamere@gmail.com</a> para postular y considerar su participación.',
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-ES.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-ES.png',
                     bannerImgSrc: 'img/Convocatoria ESP.png',
@@ -817,7 +821,7 @@
                 pt: {
                     tituloBienvenida: 'Bem-vindos',
                     textoIntro1: 'Para participar do congresso <strong>"Diálogo entre dois mundos: língua e cultura russa no contexto iberoamericano"</strong>, que será realizado nos dias <strong>6 (terça-feira) e 7 (quarta-feira) de outubro de 2026</strong>, na <strong>Unidade de Pós-Graduação da Universidade Nacional Autônoma do México (UNAM).</strong>.',
-                    textoIntro2: 'Destinado a todos os que desempenham atividades acadêmicas e profissionais no mundo da russística nos países da América Latina, Caribe, Espanha e Portugal, o congresso “Diálogo entre dois mundos: língua e cultura russa no contexto ibero-americano constitui um espaço de encontro e visibilidade da troca acadêmica e cultural profícua entre nossas regiões.',
+                    textoIntro2: 'Destinado a todos os que desempenham atividades acadêmicas e profissionais no mundo da russística nos países da América Latina, Caribe, Espanha e Portugal, o congresso "Diálogo entre dois mundos: língua e cultura russa no contexto ibero-americano constitui um espaço de encontro e visibilidade da troca acadêmica e cultural profícua entre nossas regiões.',
                     textoIntro3: 'Convidamos docentes, pesquisadores, intérpretes, especialistas e estudantes cujas atividades se desenvolvam no âmbito da língua, literatura e história russas, na relação com as respectivas línguas, literaturas e histórias ibero-americanas a compartilhar seus trabalhos e experiências neste primeiro congresso organizado pela Fundação Russkiy Mir e pela Rede Iberoamericana de Russistas e Eslavistas. Serão emitidos certificados de participação.',
                     btnPonentes: 'Inscrição para palestrantes',
                     btnAsistentes: 'Inscrição para ouvintes',
@@ -832,11 +836,11 @@
                     org4Desc: 'Caracterizado por sua abordagem interdisciplinar e crítica, o Programa de Pós-Graduação em Estudos Latino-Americanos dedica-se à análise dos processos históricos, econômicos, políticos, sociais e culturais da América Latina e do Caribe.<br>Ao longo de sua trajetória, o Programa de Pós-Graduação em Estudos Latino-Americanos da UNAM consolidou-se como uma das principais referências da América Latina na formação de pesquisadores e docentes especializados na região, mantendo estreita colaboração com universidades, centros de pesquisa e redes acadêmicas latino-americanas e internacionais.',
                     org5Titulo: 'Escola Nacional de Línguas, Linguística e Tradução (ENALLT)',
                     org5Desc: 'A Escola Nacional de Línguas, Linguística e Tradução da UNAM dedica-se à formação de profissionais competentes, críticos e inovadores nas áreas do ensino de línguas nacionais e estrangeiras, da linguística aplicada e da tradução, comprometidos com o desenvolvimento social e cultural do México e com os desafios globais do século XXI.<br>Para isso, promove a excelência acadêmica por meio de modalidades presenciais, híbridas e a distância; incentiva a certificação e a formação continuada de recursos humanos; e desenvolve pesquisas de excelência em linguística, linguística aplicada e tradução, contribuindo tanto para a comunidade universitária quanto para a sociedade em geral.<br>Todas essas ações são realizadas com base nos princípios da inclusão, da equidade, da sustentabilidade e da responsabilidade social.',
-                    tituloCronograma: 'Cronograma',
-                    textoCronograma: '📅 Em breve — Fiquem atentos!',
-                    textoCronograma2: 'Assim que tivermos a lista de participantes, publicaremos aqui o programa detalhado.',
+                    tituloPrograma: 'Programa',
+                    programaImgSrc: 'img/PROGRAMA-PREVIEW-PT.png',
+                    programaPdf: 'pdf/PROGRAMA EN PORTUGUES_FINAL.pdf',
                     textoConvocatoria: '↓ Convocatória ↓',
-                    textoPostulacion: 'Se você estiver vendo esta convocatória após 25 de julho, envie um e-mail para <a href="mailto:congresosamere@gmail.com" alias="mail congreso" style="color:#c1121f; color:#c1121f !important; font-weight:700;">congresosamere@gmail.com</a> para se inscrever e ter sua participação considerada.',
+                    textoPostulacion: 'Se você estiver vendo esta convocatória após 25 de julho, envie um e-mail para <a href="mailto:congresosamere@gmail.com" style="color:#c1121f; font-weight:700;">congresosamere@gmail.com</a> para se inscrever e ter sua participação considerada.',
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-PT.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-PT.png',
                     bannerImgSrc: 'img/Convocatoria PR.png',
@@ -862,11 +866,11 @@
                     org4Desc: 'Программа последипломного образования по латиноамериканским исследованиям отличается междисциплинарным и критическим подходом к изучению исторических, экономических, политических, социальных и культурных процессов в странах Латинской Америки и Карибского бассейна.<br>За годы своего существования программа Национального автономного университета Мексики (UNAM) стала одним из ведущих центров подготовки исследователей и преподавателей, специализирующихся на изучении региона. Она поддерживает тесное сотрудничество с университетами, исследовательскими центрами и академическими сетями Латинской Америки и других стран мира.',
                     org5Titulo: 'Национальная школа языков, лингвистики и перевода (ENALLT)',
                     org5Desc: 'Национальная школа языков, лингвистики и перевода Национального автономного университета Мексики (UNAM) осуществляет подготовку высококвалифицированных, критически мыслящих и инновационно ориентированных специалистов в области преподавания национальных и иностранных языков, прикладной лингвистики и перевода, стремящихся содействовать социальному и культурному развитию Мексики и отвечать на вызовы XXI века.<br>Для достижения этих целей ENALLT развивает академическое превосходство посредством очных, смешанных и дистанционных образовательных моделей, способствует сертификации и непрерывному повышению квалификации специалистов, а также проводит фундаментальные и прикладные исследования в области лингвистики, прикладной лингвистики и перевода, направленные на развитие университетского сообщества и общества в целом.<br>Вся деятельность школы осуществляется на принципах инклюзивности, равенства, устойчивого развития и социальной ответственности.',
-                    tituloCronograma: 'Расписание',
-                    textoCronograma: '📅 Скоро — Следите за обновлениями!',
-                    textoCronograma2: 'Как только у нас будет список участников, мы опубликуем здесь подробную программу.',
+                    tituloPrograma: 'Программа',
+                    programaImgSrc: 'img/PROGRAMA-PREVIEW-RU.png',
+                    programaPdf: 'pdf/PROGRAMA EN RUSO_FINAL.pdf',
                     textoConvocatoria: '↓ Информационное письмо ↓',
-                    textoPostulacion: 'Если вы увидели это объявление после 25 июля, отправьте письмо на <a href="mailto:congresosamere@gmail.com" alias="mail congreso" style="color:#c1121f; color:#c1121f !important; font-weight:700;">congresosamere@gmail.com</a> для подачи заявки и рассмотрения вашего участия.',
+                    textoPostulacion: 'Если вы увидели это объявление после 25 июля, отправьте письмо на <a href="mailto:congresosamere@gmail.com" style="color:#c1121f; font-weight:700;">congresosamere@gmail.com</a> для подачи заявки и рассмотрения вашего участия.',
                     logoHeaderSrc: 'img/HEADER-LOGO-DIAL-RU.png',
                     logoFooterSrc: 'img/FOOTER-LOGO-DIAL-RUs.png',
                     bannerImgSrc: 'img/Copia de Convocatoria RU (1).png',
@@ -897,9 +901,7 @@
                 if (elementosTexto.org4Desc) elementosTexto.org4Desc.innerHTML = t.org4Desc;
                 if (elementosTexto.org5Titulo) elementosTexto.org5Titulo.innerHTML = t.org5Titulo;
                 if (elementosTexto.org5Desc) elementosTexto.org5Desc.innerHTML = t.org5Desc;
-                if (elementosTexto.tituloCronograma) elementosTexto.tituloCronograma.innerHTML = t.tituloCronograma;
-                if (elementosTexto.textoCronograma) elementosTexto.textoCronograma.innerHTML = t.textoCronograma;
-                if (elementosTexto.textoCronograma2) elementosTexto.textoCronograma2.innerHTML = t.textoCronograma2;
+                if (elementosTexto.tituloPrograma) elementosTexto.tituloPrograma.innerHTML = t.tituloPrograma;
                 if (elementosTexto.textoConvocatoria) elementosTexto.textoConvocatoria.innerHTML = t.textoConvocatoria;
                 if (elementosTexto.textoPostulacion) elementosTexto.textoPostulacion.innerHTML = t.textoPostulacion;
 
@@ -909,6 +911,8 @@
                 if (bannerLink) bannerLink.href = t.bannerPdf;
                 if (btnPonentesLink) btnPonentesLink.href = t.btnPonentesHref;
                 if (btnAsistentesLink) btnAsistentesLink.href = t.btnAsistentesHref;
+                if (programaImg) programaImg.src = t.programaImgSrc;
+                if (programaLink) programaLink.href = t.programaPdf;
 
                 document.documentElement.lang = idioma;
             }
