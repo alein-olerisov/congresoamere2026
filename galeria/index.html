@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es" class="page-gallery">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Memoria fotográfica del Congreso Diálogo de dos mundos 2026. Explora las actividades del 6 y 7 de octubre, organizadas por día.">
+  <meta name="theme-color" content="#fff8e7">
+  <title>Galería · Diálogo de dos mundos 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#galeria-contenido">Saltar a las fotografías</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../" aria-label="Diálogo de dos mundos: inicio">
+        <img src="../img/HEADER-LOGO-DIAL-ES.png" alt="Diálogo de dos mundos · Congreso 2026" width="310" height="96">
+      </a>
+      <a class="back-link" href="../"><span aria-hidden="true">←</span> Volver al congreso</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="shell">
+      <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="../">Congreso 2026</a><span aria-hidden="true">/</span><span aria-current="page">Galería</span></nav>
+      <section class="intro" aria-labelledby="gallery-heading">
+        <div>
+          <p class="eyebrow"><span aria-hidden="true"></span> Memoria fotográfica · 6 y 7 de octubre</p>
+          <h1 id="gallery-heading">Un encuentro.<br><span>Muchos momentos.</span></h1>
+          <p class="intro-copy">Dos días de diálogo, ideas y encuentros. Recorre las actividades y vuelve a vivir el congreso, una fotografía a la vez.</p>
+        </div>
+        <div class="intro-aside" aria-label="Resumen de la galería">
+          <span class="aside-year">UNAM · MÉXICO · 2026</span>
+          <div class="stat"><strong id="total-photos">469</strong><span>fotografías</span></div>
+          <div class="stat"><strong id="total-albums">23</strong><span>actividades</span></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="day-bar">
+      <div class="shell day-bar-inner">
+        <div class="day-tabs" role="tablist" aria-label="Días del congreso">
+          <button id="tab-dia-1" class="day-tab" type="button" role="tab" aria-selected="true" aria-controls="panel-dia-1" data-day="dia-1"><span>Día 1</span><span class="tab-date">6 de octubre</span></button>
+          <button id="tab-dia-2" class="day-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-dia-2" tabindex="-1" data-day="dia-2"><span>Día 2</span><span class="tab-date">7 de octubre</span></button>
+        </div>
+        <span class="day-hint"><span aria-hidden="true">↗</span> Abre una foto para explorar</span>
+      </div>
+    </div>
+
+    <div class="shell gallery-content" id="galeria-contenido">
+      <div class="day-summary">
+        <p id="day-description" aria-live="polite">Cargando fotografías…</p>
+        <div class="activity-select" hidden>
+          <label for="activity-jump">Ir a una actividad</label>
+          <select id="activity-jump"><option value="">Selecciona una actividad</option></select>
+        </div>
+      </div>
+      <div id="gallery-status" class="gallery-status" role="status"><span class="loading-dot" aria-hidden="true"></span> Preparando los recuerdos…</div>
+      <button id="retry-gallery" class="retry-button" type="button" hidden>Volver a intentar</button>
+      <div id="panel-dia-1" class="day-panel" role="tabpanel" aria-labelledby="tab-dia-1" tabindex="0"></div>
+      <div id="panel-dia-2" class="day-panel" role="tabpanel" aria-labelledby="tab-dia-2" tabindex="0" hidden></div>
+      <noscript><p class="gallery-status">Activa JavaScript para explorar las fotografías por día y actividad.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><p>Diálogo de dos mundos <span>· Congreso 2026</span></p><a href="../">Volver al congreso <span aria-hidden="true">↗</span></a></div>
+  </footer>
+
+  <dialog id="photo-viewer" class="viewer" aria-labelledby="viewer-title" aria-describedby="viewer-help">
+    <div class="viewer-inner">
+      <div class="viewer-toolbar">
+        <div class="viewer-heading"><p id="viewer-day" class="viewer-day"></p><h2 id="viewer-title"></h2></div>
+        <button id="viewer-close" class="viewer-icon close-button" type="button" aria-label="Cerrar visor"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="viewer-stage" id="viewer-stage" aria-busy="false">
+        <button id="viewer-prev" class="viewer-icon viewer-prev" type="button" aria-label="Fotografía anterior"><span aria-hidden="true">←</span></button>
+        <figure class="viewer-figure"><img id="viewer-image" alt="" draggable="false"><figcaption id="viewer-image-status" class="viewer-image-status" role="status" hidden></figcaption></figure>
+        <button id="viewer-next" class="viewer-icon viewer-next" type="button" aria-label="Fotografía siguiente"><span aria-hidden="true">→</span></button>
+      </div>
+      <div class="viewer-bottom"><p id="viewer-counter" aria-live="polite" aria-atomic="true"></p><p id="viewer-help">Usa <span aria-hidden="true">← →</span><span class="sr-only">las flechas del teclado</span> para navegar · Esc para cerrar</p></div>
+    </div>
+  </dialog>
+</body>
+</html>

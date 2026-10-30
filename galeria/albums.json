@@ -1,0 +1,3019 @@
+{
+  "count": 469,
+  "days": [
+    {
+      "id": "dia-1",
+      "label": "Día 1",
+      "date": "Martes 6 de octubre de 2026",
+      "count": 254,
+      "albums": [
+        {
+          "id": "dia-1-00-inauguracion",
+          "order": 0,
+          "title": "Inauguración",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0563-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0563-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0568-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0568-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0570-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0570-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0572-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0572-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0579-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0579-edited.webp",
+              "width": 2000,
+              "height": 1289
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0582-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0582-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0589-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0589-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0593-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0593-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0596-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0596-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0605-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0605-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0607-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0607-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0611-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0611-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0613-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0613-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0614-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0614-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0616-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0616-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0617-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0617-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0621-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0621-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0624-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0624-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0625-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0625-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0630-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0630-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0631-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0631-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0633-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0633-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0635-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0635-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0636-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0636-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0639-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0639-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0643-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0643-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0644-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0644-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0653-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0653-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0659-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0659-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0660-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0660-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0664-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0664-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0683-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0683-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0685-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0685-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0689-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0689-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0691-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0691-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0695-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0695-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0703-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0703-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0711-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0711-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0713-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0713-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0721-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0721-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0728-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0728-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0740-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0740-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0745-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0745-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0749-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0749-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/00-inauguracion/img-0752-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0752-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna",
+          "order": 1,
+          "title": "Literatura latinoamericana en la Rusia del siglo XXI: traducción, recepción y crítica",
+          "subtitle": "Daria Sinitsyna",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0754-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0754-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0756-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0756-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0768-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0768-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0773-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0773-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0775-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0775-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0803-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0803-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0806-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0806-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0811-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/1-literatura-latinoamericana-en-la-rusia-del-siglo-xxi-traduccion-recepcion-critica-daria-sinitsyna/img-0811-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-2-mesa-de-trabajo-3-1",
+          "order": 2,
+          "title": "Mesa de trabajo 3.1",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0816-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0816-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0818-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0818-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0820-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0820-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0823-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0823-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0824-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0824-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0828-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0828-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0835-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0835-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0837-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0837-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0840-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0840-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/2-mesa-de-trabajo-3-1/img-0842-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/2-mesa-de-trabajo-3-1/img-0842-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-3-mesa-de-trabajo-3-2",
+          "order": 3,
+          "title": "Mesa de trabajo 3.2",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0887-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0887-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0890-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0890-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0891-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0891-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0894-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0894-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0896-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0896-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0901-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0901-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0903-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0903-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0965-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0965-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0967-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0967-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0970-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0970-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0971-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0971-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0975-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0975-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0976-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0976-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/3-mesa-de-trabajo-3-2/img-0979-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/3-mesa-de-trabajo-3-2/img-0979-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-4-mesa-de-trabajo-2-1",
+          "order": 4,
+          "title": "Mesa de trabajo 2.1",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-0982-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-0982-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-0985-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-0985-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-0990-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-0990-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-0993-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-0993-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-0997-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-0997-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-1000-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-1000-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-1003-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-1003-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-1006-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-1006-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-1025-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-1025-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/4-mesa-de-trabajo-2-1/img-1032-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/4-mesa-de-trabajo-2-1/img-1032-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-5-mesa-de-trabajo-5-2",
+          "order": 5,
+          "title": "Mesa de trabajo 5.2",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1045-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1045-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1048-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1048-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1049-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1049-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1052-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1052-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1054-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1054-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1056-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1056-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1065-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1065-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1069-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1069-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1075-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1075-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1077-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1077-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1080-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1080-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1081-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1081-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1087-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1087-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1092-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1092-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1094-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1094-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1103-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1103-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1104-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1104-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1108-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1108-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1111-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1111-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1117-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1117-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1119-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1119-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1122-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1122-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1126-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1126-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1138-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1138-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1144-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1144-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1146-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1146-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1148-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1148-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1150-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1150-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1155-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1155-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1164-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1164-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1166-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1166-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1170-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1170-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1177-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1177-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1181-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1181-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1185-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1185-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1190-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1190-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1202-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1202-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1217-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1217-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1221-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1221-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1230-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1230-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1231-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1231-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1237-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1237-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/5-mesa-de-trabajo-5-2/img-1241-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/5-mesa-de-trabajo-5-2/img-1241-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-6-alejandro-barreto",
+          "order": 6,
+          "title": "Alejandro Barreto",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1244-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1244-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1245-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1245-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1247-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1247-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1249-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1249-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1252-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1252-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1253-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1253-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1254-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1254-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1255-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1255-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1258-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1258-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1259-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1259-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1263-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1263-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1265-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1265-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1266-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1266-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1270-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1270-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1274-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1274-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1275-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1275-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/6-alejandro-barreto/img-1278-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/6-alejandro-barreto/img-1278-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-7-presentaciones-editoriales",
+          "order": 7,
+          "title": "Presentaciones editoriales",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1280-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1280-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1282-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1282-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1283-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1283-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1284-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1284-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1286-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1286-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1287-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1287-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1288-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1288-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1289-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1289-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1291-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1291-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1292-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1292-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1295-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1295-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1296-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1296-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1301-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1301-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1304-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1304-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1305-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1305-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1306-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1306-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1308-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1308-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1310-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1310-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1311-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1311-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1313-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1313-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1315-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1315-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1318-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1318-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1319-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1319-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1321-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1321-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1323-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1323-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1324-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1324-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1325-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1325-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1327-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1327-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1337-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1337-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/7-presentaciones-editoriales/img-1338-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/7-presentaciones-editoriales/img-1338-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-aulas",
+          "order": null,
+          "title": "Aulas",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0848-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0848-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0850-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0850-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0851-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0851-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0853-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0853-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0855-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0855-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0857-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0857-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0859-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0859-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0862-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0862-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0864-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0864-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0865-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0865-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0870-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0870-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0871-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0871-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0876-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0876-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0881-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0881-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0882-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0882-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0883-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0883-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0905-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0905-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0906-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0906-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0909-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0909-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0912-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0912-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0913-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0913-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0914-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0914-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0915-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0915-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0916-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0916-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0922-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0922-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0923-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0923-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0924-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0924-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0926-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0926-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0927-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0927-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0928-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0928-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0929-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0929-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0930-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0930-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0932-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0932-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0933-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0933-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0934-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0934-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0936-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0936-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0937-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0937-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0938-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0938-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0939-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0939-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0943-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0943-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0947-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0947-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0949-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0949-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0955-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0955-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-0960-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-0960-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1007-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1007-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1012-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1012-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1016-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1016-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1017-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1017-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1018-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1018-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/aulas/img-1021-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/aulas/img-1021-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-1-retratos-y-grupos",
+          "order": null,
+          "title": "Retratos y grupos",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0783-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0783-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0786-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0786-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0791-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0791-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0797-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0797-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0800-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0800-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-0812-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-0812-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1037-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1037-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1039-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1039-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1097-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1097-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1098-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1098-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1224-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1224-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1340-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1340-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1344-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1344-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1345-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1345-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1348-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1348-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1350-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1350-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1352-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1352-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1356-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1356-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1357-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1357-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1360-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1360-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1364-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1364-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1365-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1365-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1367-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1367-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1369-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1369-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1371-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1371-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1373-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1373-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-1/retratos-y-grupos/img-1375-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-1/retratos-y-grupos/img-1375-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dia-2",
+      "label": "Día 2",
+      "date": "Miércoles 7 de octubre de 2026",
+      "count": 215,
+      "albums": [
+        {
+          "id": "dia-2-1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov",
+          "order": 1,
+          "title": "La literatura del absurdo rusa actual",
+          "subtitle": "Dmitri Danilov",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1386-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1386-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1388-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1388-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1390-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1390-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1391-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1391-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1405-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1405-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1410-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1410-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1412-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1412-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1413-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1413-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-6933-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-6933-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-6935-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-6935-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-2-presentaciones-de-asociaciones",
+          "order": 2,
+          "title": "Presentaciones de asociaciones",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1445-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1445-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1468-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1468-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1470-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1470-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1471-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1471-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1473-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1473-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1475-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1475-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1477-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1477-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1480-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1480-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1481-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1481-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1486-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1486-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1488-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1488-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1491-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1491-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1494-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1494-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1497-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1497-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1498-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1498-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1499-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1499-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1501-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1501-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1507-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1507-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1509-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1509-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1515-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1515-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1518-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1518-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1529-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1529-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1543-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1543-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/2-presentaciones-de-asociaciones/img-1545-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/2-presentaciones-de-asociaciones/img-1545-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-3-mesa-de-trabajo-1-2",
+          "order": 3,
+          "title": "Mesa de trabajo 1.2",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1602-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1602-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1603-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1603-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1606-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1606-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1607-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1607-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1612-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1612-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1617-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1617-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1620-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1620-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1622-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1622-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1625-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1625-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1627-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1627-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1634-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1634-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1637-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1637-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1641-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1641-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1642-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1642-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1644-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1644-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1646-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1646-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1649-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1649-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1651-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1651-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1654-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1654-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1656-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1656-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1658-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1658-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1660-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1660-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1661-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1661-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1663-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1663-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1672-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1672-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1674-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1674-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/3-mesa-de-trabajo-1-2/img-1676-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/3-mesa-de-trabajo-1-2/img-1676-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-4-mesa-de-trabajo-1-6",
+          "order": 4,
+          "title": "Mesa de trabajo 1.6",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1682-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1682-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1683-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1683-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1684-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1684-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1685-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1685-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1686-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1686-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1689-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1689-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1704-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1704-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1708-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1708-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1710-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1710-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1718-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1718-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1720-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1720-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1723-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1723-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1729-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1729-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/4-mesa-de-trabajo-1-6/img-1731-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/4-mesa-de-trabajo-1-6/img-1731-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-5-mesa-de-trabajo-5-1",
+          "order": 5,
+          "title": "Mesa de trabajo 5.1",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0435-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0435-edited.webp",
+              "width": 2000,
+              "height": 1500
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0436-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0436-edited.webp",
+              "width": 2000,
+              "height": 1500
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0440-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0440-edited.webp",
+              "width": 2000,
+              "height": 1500
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0443-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0443-edited.webp",
+              "width": 2000,
+              "height": 1500
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0454-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0454-edited.webp",
+              "width": 1500,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0456-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0456-edited.webp",
+              "width": 1500,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/5-mesa-de-trabajo-5-1/img-0461-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/5-mesa-de-trabajo-5-1/img-0461-edited.webp",
+              "width": 1500,
+              "height": 2000
+            }
+          ]
+        },
+        {
+          "id": "dia-2-6-mesa-de-trabajo-2-2",
+          "order": 6,
+          "title": "Mesa de trabajo 2.2",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1747-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1747-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1749-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1749-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1752-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1752-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1753-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1753-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1762-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1762-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1765-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1765-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1769-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1769-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1771-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1771-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1772-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1772-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1776-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1776-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1786-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1786-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1789-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1789-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1798-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1798-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/6-mesa-de-trabajo-2-2/img-1803-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/6-mesa-de-trabajo-2-2/img-1803-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos",
+          "order": 7,
+          "title": "Literatura rusa y escritores hispanoamericanos: los hilos ocultos",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1815-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1815-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1816-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1816-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1817-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1817-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1818-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/7-literatura-rusa-y-escritores-hispanoamericanos-los-hilos-ocultos/img-1818-edited.webp",
+              "width": 1333,
+              "height": 2000
+            }
+          ]
+        },
+        {
+          "id": "dia-2-8-ceremonia-de-entrega-de-reconocimientos-enallt",
+          "order": 8,
+          "title": "Ceremonia de entrega de reconocimientos ENALLT",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1823-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1823-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1828-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1828-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1836-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1836-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1838-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1838-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1839-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1839-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1844-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1844-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1845-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1845-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1847-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1847-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1853-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1853-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1854-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1854-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1855-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1855-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1858-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1858-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1862-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1862-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1865-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1865-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1867-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1867-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1873-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1873-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1877-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1877-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1880-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1880-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1886-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1886-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1888-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1888-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1890-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1890-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1893-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1893-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1902-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1902-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1904-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1904-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1907-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1907-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1919-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1919-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1920-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1920-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1923-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1923-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1926-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1926-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1928-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1928-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1931-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1931-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1938-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1938-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino",
+          "order": 9,
+          "title": "Proyectos clave de la Biblioteca Estatal de Literatura Extranjera de Rusia M. I. Rudomino",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1941-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1941-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1943-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1943-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1946-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1946-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1947-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1947-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1952-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/9-proyectos-clave-de-la-biblioteca-estatal-de-literatura-extranjera-de-rusia-m-i-rudomino/img-1952-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-10-las-perspectivas-de-la-rusistica-en-iberoamerica",
+          "order": 10,
+          "title": "Las perspectivas de la rusística en Iberoamérica",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1958-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1958-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1959-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1959-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1960-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1960-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1965-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/10-las-perspectivas-de-la-rusistica-en-iberoamerica/img-1965-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-11-clausura",
+          "order": 11,
+          "title": "Clausura",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1972-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1972-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1973-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1973-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1979-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1979-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1982-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1982-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1985-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1985-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1986-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1986-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1994-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1994-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-1999-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-1999-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-2005-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-2005-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-2011-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-2011-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/11-clausura/img-2033-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/11-clausura/img-2033-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-12-cena",
+          "order": 12,
+          "title": "Cena",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2088-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2088-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2089-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2089-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2092-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2092-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2093-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2093-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2094-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2094-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2097-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2097-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2101-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2101-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2105-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2105-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-2106-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-2106-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-6973-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-6973-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-6976-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-6976-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-6981-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-6981-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-6985-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-6985-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/12-cena/img-6989-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/12-cena/img-6989-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        },
+        {
+          "id": "dia-2-retratos-y-grupos",
+          "order": null,
+          "title": "Retratos y grupos",
+          "subtitle": "",
+          "photos": [
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1408-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1408-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1416-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1416-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1426-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1426-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1428-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1428-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1430-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1430-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1431-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1431-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1434-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1434-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1436-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1436-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1437-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1437-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1440-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1440-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1447-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1447-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1450-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1450-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1451-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1451-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1453-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1453-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1454-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1454-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1455-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1455-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1538-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1538-edited.webp",
+              "width": 2000,
+              "height": 1125
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1549-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1549-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1552-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1552-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1553-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1553-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1557-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1557-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1560-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1560-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1563-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1563-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1565-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1565-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1568-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1568-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1572-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1572-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1576-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1576-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1578-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1578-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1580-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1580-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1584-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1584-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1587-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1587-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1589-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1589-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1591-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1591-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1594-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1594-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1595-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1595-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1598-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1598-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1600-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1600-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1733-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1733-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1736-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1736-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1738-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1738-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1740-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1740-edited.webp",
+              "width": 1333,
+              "height": 2000
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1744-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1744-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-1995-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1995-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2050-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2050-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2052-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2052-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2053-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2053-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2055-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2055-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2064-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2064-edited.webp",
+              "width": 2000,
+              "height": 1333
+            },
+            {
+              "src": "../img/congreso-amere/dia-2/retratos-y-grupos/img-2083-edited.webp",
+              "thumbnail": "../img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-2083-edited.webp",
+              "width": 2000,
+              "height": 1333
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
