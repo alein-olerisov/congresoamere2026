@@ -19,37 +19,30 @@
     <!-- ============================================================
     HEADER
     ============================================================ -->
-    <header>
+    <header class="site-header">
         <div class="header-inner">
-            <div class="logo">
-                <a href="https://congresoamere2026.amere-kukurusa.com/">
-                    <img id="logoHeader" src="img/HEADER-LOGO-DIAL-ES.png" alt="Logo Congreso Diálogo" />
-                </a>
-            </div>
+            <a class="logo" href="./" data-language-link>
+                <img id="logoHeader" src="media/IMG/HEADER-LOGO-DIAL-ES.png" alt="Diálogo de dos mundos · Congreso 2026" width="250" height="100" />
+            </a>
 
             <div class="idiomas">
                 <select id="selectorIdioma" aria-label="Seleccionar idioma">
-                    <option value="es">🇪🇸 Español</option>
-                    <option value="pt">🇧🇷 Português</option>
-                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="es" lang="es">🇪🇸 Español</option>
+                    <option value="pt" lang="pt">🇧🇷 Português</option>
+                    <option value="ru" lang="ru">🇷🇺 Русский</option>
                 </select>
             </div>
         </div>
+        <nav class="menu-flotante" id="menuFlotante">
+            <div class="contenedor">
+                <a id="enlaceInicio" href="#bienvenida">Inicio</a>
+                <a id="enlaceOrganizadores" href="#organizadores">Organizadores</a>
+                <a id="enlacePrograma" href="#programa">Programa</a>
+                <a id="enlaceConvocatoria" href="#convocatoria">Convocatoria</a>
+                <a id="enlaceGaleriaMenu" class="enlace-galeria" href="galeria.html" data-language-link><span id="textoGaleriaMenu">Galería</span><span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
     </header>
-
-    <!-- ============================================================
-    MENÚ FLOTANTE
-    ============================================================ -->
-    <nav class="menu-flotante" id="menuFlotante">
-        <div class="contenedor">
-            <a href="#bienvenida">Inicio</a>
-            <a id="enlaceGaleriaMenu" href="galeria/">Galería</a>
-            <a href="#organizadores">Organizadores</a>
-            <a href="#programa">Programa</a>
-            <a href="#convocatoria">Convocatoria</a>
-            <a href="#bienvenida" class="volver-arriba">⬆ Volver arriba</a>
-        </div>
-    </nav>
 
     <!-- ============================================================
     MEMORIA FOTOGRÁFICA
@@ -61,20 +54,20 @@
                 <p class="hero-eyebrow" id="etiquetaGaleria">Memoria del congreso · 6 y 7 de octubre de 2026</p>
                 <h1 class="hero-title" id="tituloBienvenida">El diálogo continúa<br><span>en imágenes.</span></h1>
                 <p class="hero-description" id="descripcionGaleria">Las ideas, las personas y los encuentros que compartimos en la UNAM. Explora los dos días del congreso a través de su memoria fotográfica.</p>
-                <a id="ctaGaleria" class="hero-cta" href="galeria/"><span id="textoBotonGaleria">Explorar la galería</span><span aria-hidden="true">↗</span></a>
+                <a id="ctaGaleria" class="cta" href="galeria.html" data-language-link><span id="textoBotonGaleria">Explorar la galería</span><span class="cta-icon" aria-hidden="true">↗</span></a>
                 <div class="hero-stats">
                     <div><strong>469</strong><span id="etiquetaFotos">fotografías</span></div>
                     <div><strong>23</strong><span id="etiquetaActividades">actividades</span></div>
                     <div><strong>2</strong><span id="etiquetaDias">días de encuentro</span></div>
                 </div>
             </div>
-            <a class="gallery-preview" href="galeria/" aria-labelledby="textoBotonGaleria">
+            <a class="gallery-preview" href="galeria.html" data-language-link aria-labelledby="textoBotonGaleria">
                 <div class="preview-mosaic" aria-hidden="true">
-                    <div class="preview-photo"><img src="img/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0635-edited.webp" alt="" width="720" height="480" fetchpriority="high" /></div>
-                    <div class="preview-photo"><img src="img/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1386-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
-                    <div class="preview-photo"><img src="img/congreso-amere-miniaturas/dia-2/11-clausura/img-1986-edited.webp" alt="" width="480" height="720" loading="lazy" decoding="async" /></div>
-                    <div class="preview-photo"><img src="img/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1568-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
-                    <div class="preview-photo"><img src="img/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1877-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
+                    <div class="preview-photo"><img src="media/IMG/congreso-amere-miniaturas/dia-1/00-inauguracion/img-0635-edited.webp" alt="" width="720" height="480" fetchpriority="high" /></div>
+                    <div class="preview-photo"><img src="media/IMG/congreso-amere-miniaturas/dia-2/1-la-literatura-del-absurdo-rusa-actual-dmitri-danilov/img-1386-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
+                    <div class="preview-photo"><img src="media/IMG/congreso-amere-miniaturas/dia-2/11-clausura/img-1986-edited.webp" alt="" width="480" height="720" loading="lazy" decoding="async" /></div>
+                    <div class="preview-photo"><img src="media/IMG/congreso-amere-miniaturas/dia-2/retratos-y-grupos/img-1568-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
+                    <div class="preview-photo"><img src="media/IMG/congreso-amere-miniaturas/dia-2/8-ceremonia-de-entrega-de-reconocimientos-enallt/img-1877-edited.webp" alt="" width="720" height="480" loading="lazy" decoding="async" /></div>
                 </div>
                 <div class="preview-caption"><span id="leyendaGaleria">Un vistazo a los momentos que compartimos</span><span aria-hidden="true">↗</span></div>
             </a>
@@ -92,7 +85,7 @@
             <!-- 1. Russkiy Mir -->
             <div class="organizador">
                 <div class="organizador-logo">
-                    <img src="img/ruski-mir-1.1.png" alt="Fondo Russkiy Mir" />
+                    <img src="media/IMG/ruski-mir-1.1.png" alt="Fondo Russkiy Mir" />
                 </div>
                 <div class="organizador-info">
                     <h3 id="org1Titulo">Fondo Russkiy Mir</h3>
@@ -104,7 +97,7 @@
             <!-- 2. RIRE -->
             <div class="organizador">
                 <div class="organizador-logo">
-                    <img src="img/rire-1.1.png" alt="Red Iberoamericana de Rusistas y Eslavistas" />
+                    <img src="media/IMG/rire-1.1.png" alt="Red Iberoamericana de Rusistas y Eslavistas" />
                 </div>
                 <div class="organizador-info">
                     <h3 id="org2Titulo">Red Iberoamericana de Rusistas y Eslavistas (RIRE)</h3>
@@ -116,13 +109,13 @@
             <!-- 3. AMERE -->
             <div class="organizador">
                 <div class="organizador-logo">
-                    <img src="img/kukurusa-1.1.png" alt="Asociación Mexicana de Estudios Rusófonos y Eslavos" />
+                    <img src="media/IMG/kukurusa-1.1.png" alt="Asociación Mexicana de Estudios Rusófonos y Eslavos" />
                 </div>
                 <div class="organizador-info">
                     <h3 id="org3Titulo">Asociación Mexicana de Estudios Rusófonos y Eslavos (AMERE), Kukurusa</h3>
                     <p id="org3Desc">La Asociación Mexicana de Estudios Rusófonos y Eslavos es una agrupación que busca fomentar el conocimiento en México y el mundo de habla hispana de la herencia cultural de los pueblos eslavos, rusófonos y de Eurasia, así como aquellos geográfica e históricamente relacionados con ellos, mediante la promoción y difusión de las labores que en el campo de la rusística, la eslavística, el arte, la historia, el cine, las literaturas, las lenguas, la traducción, la música, las ciencias sociales, la filosofía, entre otras, realizan sus asociados, así como fomentar el conocimiento de México y su herencia cultural entre los pueblos eslavos, rusófonos y de Eurasia, aquellos geográfica e históricamente relacionados con ellos. AMERE es una asociación civil sin fines de lucro y sin fines de proselitismo partidista, político-electoral o religioso.</p>
                     <div class="redes">
-                        <strong>Redes:</strong> IG <a href="https://www.instagram.com/kukurusa_amere/">@kukurusa_amere</a> · Fb: <a href="https://www.facebook.com/profile.php?id=61561300485366">@kukurusa-amere</a> · X: <a href="https://x.com/kukurusa_amere">@kukurusa_amere</a>
+                        <strong id="etiquetaRedes">Redes:</strong> IG <a href="https://www.instagram.com/kukurusa_amere/">@kukurusa_amere</a> · Fb: <a href="https://www.facebook.com/profile.php?id=61561300485366">@kukurusa-amere</a> · X: <a href="https://x.com/kukurusa_amere">@kukurusa_amere</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +123,7 @@
             <!-- 4. PPEL -->
             <div class="organizador">
                 <div class="organizador-logo">
-                    <img src="img/ppel-1.1.png" alt="Programa de Posgrado en Estudios Latinoamericanos" />
+                    <img src="media/IMG/ppel-1.1.png" alt="Programa de Posgrado en Estudios Latinoamericanos" />
                 </div>
                 <div class="organizador-info">
                     <h3 id="org4Titulo">Programa de Posgrado en Estudios Latinoamericanos (PPEL)</h3>
@@ -142,7 +135,7 @@
             <!-- 5. ENALLT -->
             <div class="organizador">
                 <div class="organizador-logo">
-                    <img src="img/enallt-ok-logo.png" alt="Escuela Nacional de Lenguas, Lingüística y Traducción" />
+                    <img src="media/IMG/enallt-ok-logo.png" alt="Escuela Nacional de Lenguas, Lingüística y Traducción" />
                 </div>
                 <div class="organizador-info">
                     <h3 id="org5Titulo">Escuela Nacional de Lenguas, Lingüística y Traducción (ENALLT)</h3>
@@ -163,15 +156,15 @@
 
             <!-- Previsualización clickeable del PDF -->
             <div class="programa-wrapper">
-                <a id="programaLink" href="pdf/PROGRAMA-ES-FINAL.pdf" target="_blank">
+                <a id="programaLink" href="media/PDF/PROGRAMA-ES-FINAL.pdf" target="_blank">
                     <!-- ============================================
                          AQUÍ PON LAS IMÁGENES DEL PROGRAMA
                          Cambia el src según el idioma:
-                         - ES: img/PROGRAMA-PREVIEW-ES.png
-                         - PT: img/PROGRAMA-PREVIEW-PT.png
-                         - RU: img/PROGRAMA-PREVIEW-RU.png
+                         - ES: media/IMG/PROGRAMA-PREVIEW-ES.png
+                         - PT: media/IMG/PROGRAMA-PREVIEW-PT.png
+                         - RU: media/IMG/PROGRAMA-PREVIEW-RU.png
                          ============================================ -->
-                    <img id="programaImg" src="img/PROGRAMA-PREVIEW-ES.png" alt="Previsualización del programa" />
+                    <img id="programaImg" src="media/IMG/PROGRAMA-PREVIEW-ES.png" alt="Previsualización del programa" />
                 </a>
             </div>
         </div>
@@ -190,13 +183,13 @@
                 <p id="textoIntro3">Invitamos a docentes, investigadores, traductores, intérpretes, especialistas y estudiantes cuyas actividades se desarrollen en los ámbitos de la lengua, literatura, cultura e historia rusas en relación con las iberoamericanas a compartir sus trabajos y experiencias en este primer congreso organizado por la <strong>Fundación Russkiy Mir</strong> y la <strong>Red Iberoamericana de Rusistas y Eslavistas</strong>. Se otorgarán constancias de participación.</p>
             </div>
             <div class="banner-wrapper">
-                <a id="bannerLink" href="pdf/CONVOCATORIA CONGRESO ES.pdf" target="_blank">
-                    <img id="bannerImg" src="img/Convocatoria ESP.png" alt="Banner oficial de la convocatoria" loading="lazy" />
+                <a id="bannerLink" href="media/PDF/CONVOCATORIA CONGRESO ES.pdf" target="_blank">
+                    <img id="bannerImg" src="media/IMG/Convocatoria ESP.png" alt="Banner oficial de la convocatoria" loading="lazy" />
                 </a>
             </div>
             <div class="botones-registro">
-                <a id="btnPonentes" href="#" class="btn btn-ponentes">Registro de ponentes</a>
-                <a id="btnAsistentes" href="#" class="btn btn-asistentes">Registro de asistentes</a>
+                <a id="btnPonentes" href="#" class="cta cta-ponentes">Registro de ponentes</a>
+                <a id="btnAsistentes" href="#" class="cta">Registro de asistentes</a>
             </div>
             <p class="texto-postulacion" id="textoPostulacion">Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a <a href="mailto:congresosamere@gmail.com" class="archive-contact">congresosamere@gmail.com</a> para postular y considerar su participación.</p>
         </div>
@@ -211,7 +204,7 @@
 
             <div class="footer-logo">
                 <a href="#">
-                    <img id="logoFooter" src="img/FOOTER-LOGO-DIAL-ES.png" alt="Logo del congreso-Footer" />
+                    <img id="logoFooter" src="media/IMG/FOOTER-LOGO-DIAL-ES.png" alt="Diálogo de dos mundos · Congreso 2026" />
                 </a>
             </div>
 
@@ -222,7 +215,7 @@
                 <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
                     <span class="social-label">IG</span>
                 </a>
-                <a href="mailto:congresosamere@gmail.com" target="_blank" aria-label="Email">
+                <a id="correoPie" href="mailto:congresosamere@gmail.com" target="_blank" aria-label="Correo electrónico">
                     <span class="email-icon">✉</span>
                 </a>
             </div>
@@ -233,16 +226,21 @@
     <!-- ============================================================
     JAVASCRIPT
     ============================================================ -->
+    <script src="scripts/language.js"></script>
     <script>
         (function() {
             'use strict';
 
             // ---------- ELEMENTOS ----------
             const menuFlotante = document.getElementById('menuFlotante');
-            const selectorIdioma = document.getElementById('selectorIdioma');
 
             const elementosTexto = {
-                enlaceGaleriaMenu: document.getElementById('enlaceGaleriaMenu'),
+                enlaceInicio: document.getElementById('enlaceInicio'),
+                textoGaleriaMenu: document.getElementById('textoGaleriaMenu'),
+                enlaceOrganizadores: document.getElementById('enlaceOrganizadores'),
+                enlacePrograma: document.getElementById('enlacePrograma'),
+                enlaceConvocatoria: document.getElementById('enlaceConvocatoria'),
+                etiquetaRedes: document.getElementById('etiquetaRedes'),
                 etiquetaGaleria: document.getElementById('etiquetaGaleria'),
                 descripcionGaleria: document.getElementById('descripcionGaleria'),
                 textoBotonGaleria: document.getElementById('textoBotonGaleria'),
@@ -275,6 +273,9 @@
 
             const logoHeader = document.getElementById('logoHeader');
             const logoFooter = document.getElementById('logoFooter');
+            const correoPie = document.getElementById('correoPie');
+            const descripcionPagina = document.querySelector('meta[name="description"]');
+            const logosOrganizadores = document.querySelectorAll('.organizador-logo img');
             const bannerImg = document.getElementById('bannerImg');
             const bannerLink = document.getElementById('bannerLink');
             const btnPonentesLink = document.getElementById('btnPonentes');
@@ -284,7 +285,17 @@
 
             const traducciones = {
                 es: {
-                    enlaceGaleriaMenu: 'Galería',
+                    tituloPagina: 'Diálogo de dos mundos · Congreso 2026',
+                    descripcionPagina: 'Revive el Congreso Diálogo de dos mundos 2026. Explora su galería de fotografías por día y actividad, y consulta el programa y la convocatoria original.',
+                    enlaceInicio: 'Inicio',
+                    textoGaleriaMenu: 'Galería',
+                    enlaceOrganizadores: 'Organizadores',
+                    enlacePrograma: 'Programa',
+                    enlaceConvocatoria: 'Convocatoria',
+                    etiquetaRedes: 'Redes:',
+                    textoCorreo: 'Correo electrónico',
+                    altPrograma: 'Previsualización del programa',
+                    altConvocatoria: 'Banner oficial de la convocatoria',
                     tituloBienvenida: 'El diálogo continúa<br><span>en imágenes.</span>',
                     etiquetaGaleria: 'Memoria del congreso · 6 y 7 de octubre de 2026',
                     descripcionGaleria: 'Las ideas, las personas y los encuentros que compartimos en la UNAM. Explora los dos días del congreso a través de su memoria fotográfica.',
@@ -311,19 +322,28 @@
                     org5Titulo: 'Escuela Nacional de Lenguas, Lingüística y Traducción (ENALLT)',
                     org5Desc: 'La Escuela Nacional de Lenguas, Lingüística y Traducción de la UNAM se dedica a formar profesionales competentes, críticos e innovadores en la enseñanza de lenguas nacionales y extranjeras, en la lingüística aplicada y en la traducción, comprometidos con el desarrollo social y cultural de México y con los retos globales del siglo XXI. Para ello, la ENALLT impulsa la excelencia académica mediante modelos presenciales, híbridos y a distancia; promueve la certificación y actualización continua de recursos humanos; y genera investigación de calidad en lingüística, lingüística aplicada y traducción con el fin de contribuir tanto a la comunidad universitaria como a la sociedad en general. Todo lo anterior dentro en un marco de inclusión, equidad, sostenibilidad y responsabilidad social.',
                     tituloPrograma: 'Programa',
-                    programaImgSrc: 'img/PROGRAMA-PREVIEW-ES.png',
-                    programaPdf: 'pdf/PROGRAMA-ES-FINAL.pdf',
+                    programaImgSrc: 'media/IMG/PROGRAMA-PREVIEW-ES.png',
+                    programaPdf: 'media/PDF/PROGRAMA-ES-FINAL.pdf',
                     textoConvocatoria: 'Convocatoria original',
                     textoPostulacion: 'Si usted está viendo la convocatoria después del 25 de julio, envíe un correo a <a href="mailto:congresosamere@gmail.com" class="archive-contact">congresosamere@gmail.com</a> para postular y considerar su participación.',
-                    logoHeaderSrc: 'img/HEADER-LOGO-DIAL-ES.png',
-                    logoFooterSrc: 'img/FOOTER-LOGO-DIAL-ES.png',
-                    bannerImgSrc: 'img/Convocatoria ESP.png',
-                    bannerPdf: 'pdf/CONVOCATORIA CONGRESO ES.pdf',
+                    logoFooterSrc: 'media/IMG/FOOTER-LOGO-DIAL-ES.png',
+                    bannerImgSrc: 'media/IMG/Convocatoria ESP.png',
+                    bannerPdf: 'media/PDF/CONVOCATORIA CONGRESO ES.pdf',
                     btnPonentesHref: 'https://forms.gle/spc1LyNi1KEGPnNU9',
                     btnAsistentesHref: 'https://forms.gle/32rpY7mQztqyUm8d7',
                 },
                 pt: {
-                    enlaceGaleriaMenu: 'Galeria',
+                    tituloPagina: 'Diálogo entre dois mundos · Congresso 2026',
+                    descripcionPagina: 'Relembre o congresso Diálogo entre dois mundos de 2026. Explore a galeria de fotos por dia e atividade e consulte a programação e a convocatória original.',
+                    enlaceInicio: 'Início',
+                    textoGaleriaMenu: 'Galeria',
+                    enlaceOrganizadores: 'Organizadores',
+                    enlacePrograma: 'Programa',
+                    enlaceConvocatoria: 'Convocatória',
+                    etiquetaRedes: 'Redes sociais:',
+                    textoCorreo: 'E-mail',
+                    altPrograma: 'Prévia da programação',
+                    altConvocatoria: 'Banner oficial da convocatória',
                     tituloBienvenida: 'O diálogo continua<br><span>em imagens.</span>',
                     etiquetaGaleria: 'Memória do congresso · 6 e 7 de outubro de 2026',
                     descripcionGaleria: 'As ideias, as pessoas e os encontros que compartilhamos na UNAM. Relembre os dois dias do congresso por meio de sua memória fotográfica.',
@@ -350,19 +370,28 @@
                     org5Titulo: 'Escola Nacional de Línguas, Linguística e Tradução (ENALLT)',
                     org5Desc: 'A Escola Nacional de Línguas, Linguística e Tradução da UNAM dedica-se à formação de profissionais competentes, críticos e inovadores nas áreas do ensino de línguas nacionais e estrangeiras, da linguística aplicada e da tradução, comprometidos com o desenvolvimento social e cultural do México e com os desafios globais do século XXI.<br>Para isso, promove a excelência acadêmica por meio de modalidades presenciais, híbridas e a distância; incentiva a certificação e a formação continuada de recursos humanos; e desenvolve pesquisas de excelência em linguística, linguística aplicada e tradução, contribuindo tanto para a comunidade universitária quanto para a sociedade em geral.<br>Todas essas ações são realizadas com base nos princípios da inclusão, da equidade, da sustentabilidade e da responsabilidade social.',
                     tituloPrograma: 'Programa',
-                    programaImgSrc: 'img/PROGRAMA-PREVIEW-PT.png',
-                    programaPdf: 'pdf/PROGRAMA-PT-FINAL.pdf',
+                    programaImgSrc: 'media/IMG/PROGRAMA-PREVIEW-PT.png',
+                    programaPdf: 'media/PDF/PROGRAMA-PT-FINAL.pdf',
                     textoConvocatoria: 'Convocatória original',
                     textoPostulacion: 'Se você estiver vendo esta convocatória após 25 de julho, envie um e-mail para <a href="mailto:congresosamere@gmail.com" class="archive-contact">congresosamere@gmail.com</a> para se inscrever e ter sua participação considerada.',
-                    logoHeaderSrc: 'img/HEADER-LOGO-DIAL-PT.png',
-                    logoFooterSrc: 'img/FOOTER-LOGO-DIAL-PT.png',
-                    bannerImgSrc: 'img/Convocatoria PR.png',
-                    bannerPdf: 'pdf/CONVOCATÓRIA CONGRESSO PT.pdf',
+                    logoFooterSrc: 'media/IMG/FOOTER-LOGO-DIAL-PT.png',
+                    bannerImgSrc: 'media/IMG/Convocatoria PR.png',
+                    bannerPdf: 'media/PDF/CONVOCATÓRIA CONGRESSO PT.pdf',
                     btnPonentesHref: 'https://forms.gle/uCK5k1xzQdnMbzW76',
                     btnAsistentesHref: 'https://forms.gle/dJB3zHS4giZQG5fV7',
                 },
                 ru: {
-                    enlaceGaleriaMenu: 'Фотогалерея',
+                    tituloPagina: 'Диалог двух миров · Конгресс 2026',
+                    descripcionPagina: 'Вспомните конгресс «Диалог двух миров» 2026 года. Посмотрите фотографии по дням и мероприятиям, программу и первоначальное информационное письмо.',
+                    enlaceInicio: 'Главная',
+                    textoGaleriaMenu: 'Фотогалерея',
+                    enlaceOrganizadores: 'Организаторы',
+                    enlacePrograma: 'Программа',
+                    enlaceConvocatoria: 'Информационное письмо',
+                    etiquetaRedes: 'Соцсети:',
+                    textoCorreo: 'Электронная почта',
+                    altPrograma: 'Предварительный просмотр программы',
+                    altConvocatoria: 'Официальный баннер информационного письма',
                     tituloBienvenida: 'Диалог продолжается<br><span>в фотографиях.</span>',
                     etiquetaGaleria: 'Фотохроника конгресса · 6 и 7 октября 2026 года',
                     descripcionGaleria: 'Идеи, люди и встречи, которые объединили нас в UNAM. Вспомните два дня конгресса, просматривая фотографии его мероприятий.',
@@ -389,14 +418,13 @@
                     org5Titulo: 'Национальная школа языков, лингвистики и перевода (ENALLT)',
                     org5Desc: 'Национальная школа языков, лингвистики и перевода Национального автономного университета Мексики (UNAM) осуществляет подготовку высококвалифицированных, критически мыслящих и инновационно ориентированных специалистов в области преподавания национальных и иностранных языков, прикладной лингвистики и перевода, стремящихся содействовать социальному и культурному развитию Мексики и отвечать на вызовы XXI века.<br>Для достижения этих целей ENALLT развивает академическое превосходство посредством очных, смешанных и дистанционных образовательных моделей, способствует сертификации и непрерывному повышению квалификации специалистов, а также проводит фундаментальные и прикладные исследования в области лингвистики, прикладной лингвистики и перевода, направленные на развитие университетского сообщества и общества в целом.<br>Вся деятельность школы осуществляется на принципах инклюзивности, равенства, устойчивого развития и социальной ответственности.',
                     tituloPrograma: 'Программа',
-                    programaImgSrc: 'img/PROGRAMA-PREVIEW-RU.png',
-                    programaPdf: 'pdf/PROGRAMA-RU-FINAL.pdf',
+                    programaImgSrc: 'media/IMG/PROGRAMA-PREVIEW-RU.png',
+                    programaPdf: 'media/PDF/PROGRAMA-RU-FINAL.pdf',
                     textoConvocatoria: 'Первоначальное информационное письмо',
                     textoPostulacion: 'Если вы увидели это объявление после 25 июля, отправьте письмо на <a href="mailto:congresosamere@gmail.com" class="archive-contact">congresosamere@gmail.com</a> для подачи заявки и рассмотрения вашего участия.',
-                    logoHeaderSrc: 'img/HEADER-LOGO-DIAL-RU.png',
-                    logoFooterSrc: 'img/FOOTER-LOGO-DIAL-RUs.png',
-                    bannerImgSrc: 'img/Copia de Convocatoria RU (1).png',
-                    bannerPdf: 'pdf/CONVOCATORIA CONGRESO RU.pdf',
+                    logoFooterSrc: 'media/IMG/FOOTER-LOGO-DIAL-RUs.png',
+                    bannerImgSrc: 'media/IMG/Copia de Convocatoria RU (1).png',
+                    bannerPdf: 'media/PDF/CONVOCATORIA CONGRESO RU.pdf',
                     btnPonentesHref: 'https://forms.gle/3Nw86gkZJdKKiJFv9',
                     btnAsistentesHref: 'https://forms.gle/M3VEpomqzZbGHkUw6',
                 }
@@ -410,7 +438,15 @@
                     if (elemento && t[clave] !== undefined) elemento.innerHTML = t[clave];
                 });
 
-                if (logoHeader) logoHeader.src = t.logoHeaderSrc;
+                document.title = t.tituloPagina;
+                descripcionPagina.content = t.descripcionPagina;
+                logoHeader.alt = logoFooter.alt = t.tituloPagina;
+                programaImg.alt = t.altPrograma;
+                bannerImg.alt = t.altConvocatoria;
+                correoPie.setAttribute('aria-label', t.textoCorreo);
+                logosOrganizadores.forEach((logo, index) => {
+                    logo.alt = t[`org${index + 1}Titulo`];
+                });
                 if (logoFooter) logoFooter.src = t.logoFooterSrc;
                 if (bannerImg) bannerImg.src = t.bannerImgSrc;
                 if (bannerLink) bannerLink.href = t.bannerPdf;
@@ -419,28 +455,24 @@
                 if (programaImg) programaImg.src = t.programaImgSrc;
                 if (programaLink) programaLink.href = t.programaPdf;
 
-                document.documentElement.lang = idioma;
             }
 
-            selectorIdioma.addEventListener('change', function() {
-                cambiarIdioma(this.value);
-            });
-
-            let lastScrollY = 0;
-            const headerHeight = document.querySelector('header').offsetHeight;
-
-            window.addEventListener('scroll', function() {
-                const scrollY = window.scrollY;
-                if (scrollY > headerHeight + 40) {
-                    menuFlotante.classList.add('visible');
-                } else {
-                    menuFlotante.classList.remove('visible');
-                }
-                lastScrollY = scrollY;
-            });
-
-            selectorIdioma.value = 'es';
-            cambiarIdioma('es');
+            const header = document.querySelector('.site-header');
+            let alturaHeader;
+            function actualizarMenu() {
+                menuFlotante.classList.toggle('visible', window.scrollY > alturaHeader + 40);
+            }
+            function medirEncabezado() {
+                alturaHeader = header.offsetHeight;
+                document.documentElement.style.setProperty('--altura-navegacion', `${alturaHeader + menuFlotante.offsetHeight}px`);
+                actualizarMenu();
+            }
+            window.siteLanguage.init(cambiarIdioma);
+            medirEncabezado();
+            const observador = new ResizeObserver(medirEncabezado);
+            observador.observe(header);
+            observador.observe(menuFlotante);
+            window.addEventListener('scroll', actualizarMenu, { passive: true });
 
         })();
     </script>

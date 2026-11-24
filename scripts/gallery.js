@@ -10,10 +10,13 @@
   const stage = byId('viewer-stage');
   const viewerImage = byId('viewer-image');
   const imageStatus = byId('viewer-image-status');
+  const totalPhotos = byId('total-photos');
+  const totalAlbums = byId('total-albums');
   const close = byId('viewer-close');
   const previous = byId('viewer-prev');
   const next = byId('viewer-next');
   const spans = [15, 19, 13, 17, 20, 14, 18, 16, 21, 14, 17, 15];
+  let copy;
   let catalog;
   let activeDay;
   let activeAlbum;
@@ -23,11 +26,32 @@
   let preloads = [];
   let swipeStart;
 
-  function text(tag, className, value) {
+  function text(tag, className, value = '') {
     const node = document.createElement(tag);
     if (className) node.className = className;
     node.textContent = value;
     return node;
+  }
+
+  function albumTitle(album) {
+    return copy.albums[album.id]?.title ?? album.title;
+  }
+
+  function albumSubtitle(album) {
+    return copy.albums[album.id]?.subtitle ?? album.subtitle;
+  }
+
+  function translateAlbum(section, album) {
+    const title = albumTitle(album);
+    const count = album.photos.length;
+    section.querySelector('h2').textContent = title;
+    const subtitle = section.querySelector('.album-subtitle');
+    if (subtitle) subtitle.textContent = albumSubtitle(album);
+    section.querySelector('.album-count').textContent = `${count} ${copy.photos(count)}`;
+    for (const tile of section.querySelectorAll('.photo-tile')) {
+      tile.setAttribute('aria-label', copy.openPhoto(Number(tile.dataset.photoIndex) + 1, count, title));
+      tile.dataset.imageError = copy.thumbnailError;
+    }
   }
 
   function renderDay(day) {
@@ -46,12 +70,12 @@
       const number = text('span', 'album-number', album.order === null ? '＋' : String(album.order).padStart(2, '0'));
       number.setAttribute('aria-hidden', 'true');
       const titleGroup = document.createElement('div');
-      const title = text('h2', '', album.title);
+      const title = text('h2', '');
       title.id = `${album.id}-heading`;
       titleGroup.append(title);
-      if (album.subtitle) titleGroup.append(text('p', 'album-subtitle', album.subtitle));
+      if (album.subtitle) titleGroup.append(text('p', 'album-subtitle'));
       heading.append(number, titleGroup);
-      header.append(heading, text('p', 'album-count', `${album.photos.length} fotografías`));
+      header.append(heading, text('p', 'album-count'));
       const grid = document.createElement('div');
       grid.className = 'photo-grid';
       album.photos.forEach((photo, index) => {
@@ -59,7 +83,6 @@
         tile.type = 'button';
         tile.className = 'photo-tile';
         tile.dataset.photoIndex = index;
-        tile.setAttribute('aria-label', `Abrir fotografía ${index + 1} de ${album.photos.length}: ${album.title}`);
         tile.setAttribute('aria-haspopup', 'dialog');
         tile.style.setProperty('--span', photo.height > photo.width ? 21 : spans[(index + albumIndex * 3) % spans.length]);
         const image = document.createElement('img');
@@ -83,10 +106,65 @@
         if (tile && grid.contains(tile)) openViewer(day, album, Number(tile.dataset.photoIndex), tile);
       });
       section.append(header, grid);
+      translateAlbum(section, album);
       fragment.append(section);
     });
     panel.append(fragment);
     panel.dataset.rendered = 'true';
+  }
+
+  function updateSummary(day) {
+    const date = copy.days[day.id]?.date ?? day.date;
+    const activities = day.albums.length;
+    byId('day-description').textContent = `${date} · ${activities} ${copy.activities(activities)} · ${day.count} ${copy.photos(day.count)}`;
+    const selected = jump.value;
+    jump.replaceChildren(new Option(copy.choose, ''));
+    day.albums.forEach(album => {
+      const prefix = album.order === null ? '' : `${String(album.order).padStart(2, '0')} · `;
+      jump.add(new Option(prefix + albumTitle(album), album.id));
+    });
+    if (day.albums.some(album => album.id === selected)) jump.value = selected;
+  }
+
+  function updateTotals() {
+    byId('total-photos-label').textContent = copy.photos(Number(totalPhotos.textContent));
+    byId('total-albums-label').textContent = copy.activities(Number(totalAlbums.textContent));
+  }
+
+  function updateLoadStatus() {
+    const loading = retry.hidden;
+    byId('gallery-loading-dot').hidden = !loading;
+    byId('gallery-status-text').textContent = loading ? copy.loading : copy.loadError;
+    byId('day-description').textContent = loading ? copy.loadingSummary : copy.unavailable;
+    retry.textContent = copy.retry;
+  }
+
+  function changeLanguage(language) {
+    copy = window.galleryTranslations[language];
+    document.title = copy.title;
+    document.querySelector('meta[name="description"]').content = copy.description;
+    for (const node of document.querySelectorAll('[data-i18n]')) {
+      node.textContent = copy[node.dataset.i18n];
+    }
+    for (const node of document.querySelectorAll('[data-i18n-label]')) {
+      node.setAttribute('aria-label', copy[node.dataset.i18nLabel]);
+    }
+    for (const tab of tabs) {
+      const day = copy.days[tab.dataset.day];
+      if (!day) continue;
+      tab.firstElementChild.textContent = day.label;
+      tab.lastElementChild.textContent = day.shortDate;
+    }
+    updateTotals();
+    if (!activeDay) {
+      updateLoadStatus();
+      return;
+    }
+    for (const day of catalog.days) {
+      if (!byId(`panel-${day.id}`).dataset.rendered) continue;
+      for (const album of day.albums) translateAlbum(byId(album.id), album);
+    }
+    updateSummary(activeDay);
   }
 
   function switchDay(id, { focus = false, scroll = false, updateUrl = false } = {}) {
@@ -103,12 +181,7 @@
       byId(`panel-${tab.dataset.day}`).hidden = !selected;
       if (selected && focus) tab.focus();
     });
-    byId('day-description').textContent = `${day.date} · ${day.albums.length} actividades · ${day.count} fotografías`;
-    jump.replaceChildren(new Option('Selecciona una actividad', ''));
-    day.albums.forEach(album => {
-      const prefix = album.order === null ? '' : `${String(album.order).padStart(2, '0')} · `;
-      jump.add(new Option(prefix + album.title, album.id));
-    });
+    updateSummary(day);
     if (updateUrl) history.replaceState(null, '', `#${id}`);
     const bar = document.querySelector('.day-bar');
     if (scroll && window.scrollY > bar.offsetTop) bar.scrollIntoView({ block: 'start' });
@@ -116,26 +189,26 @@
 
   async function loadGallery() {
     status.hidden = false;
-    status.textContent = 'Preparando los recuerdos…';
     retry.hidden = true;
+    updateLoadStatus();
     try {
-      const response = await fetch('albums.json');
+      const response = await fetch('scripts/albums.json');
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       catalog = await response.json();
       if (!catalog.days?.length || !catalog.days.every(day => Array.isArray(day.albums) && day.albums.length)) {
         throw new Error('Catálogo no válido');
       }
-      byId('total-photos').textContent = catalog.count;
-      byId('total-albums').textContent = catalog.days.reduce((count, day) => count + day.albums.length, 0);
+      totalPhotos.textContent = catalog.count;
+      totalAlbums.textContent = catalog.days.reduce((count, day) => count + day.albums.length, 0);
+      updateTotals();
       switchDay(location.hash.slice(1) || 'dia-1');
       // Un fragmento ajeno a las pestañas no debe dejar la galería vacía.
       if (!activeDay) switchDay('dia-1');
       status.hidden = true;
       document.querySelector('.activity-select').hidden = false;
     } catch (error) {
-      status.textContent = 'No pudimos cargar las fotografías. Comprueba tu conexión y vuelve a intentarlo.';
-      byId('day-description').textContent = 'Galería no disponible por el momento';
       retry.hidden = false;
+      updateLoadStatus();
       console.error('No se pudo cargar la galería:', error);
     }
   }
@@ -146,11 +219,13 @@
     const photo = activeAlbum.photos[activeIndex];
     const version = ++loadVersion;
     byId('viewer-counter').textContent = `${activeIndex + 1} / ${activeAlbum.photos.length}`;
-    viewerImage.alt = `${activeAlbum.title}${activeAlbum.subtitle ? ` — ${activeAlbum.subtitle}` : ''}. Fotografía ${activeIndex + 1} de ${activeAlbum.photos.length}.`;
+    const subtitle = albumSubtitle(activeAlbum);
+    const subject = subtitle ? `${albumTitle(activeAlbum)} — ${subtitle}` : albumTitle(activeAlbum);
+    viewerImage.alt = `${subject}. ${copy.viewerPhoto(activeIndex + 1, activeAlbum.photos.length)}.`;
     viewerImage.src = photo.thumbnail;
     stage.setAttribute('aria-busy', 'true');
     imageStatus.hidden = false;
-    imageStatus.textContent = 'Cargando fotografía…';
+    imageStatus.textContent = copy.photoLoading;
     previous.disabled = next.disabled = activeAlbum.photos.length < 2;
     const full = new Image();
     full.onload = () => {
@@ -173,7 +248,7 @@
     full.onerror = () => {
       if (version !== loadVersion || !viewer.open) return;
       stage.setAttribute('aria-busy', 'false');
-      imageStatus.textContent = 'No se pudo cargar la foto completa. Intenta de nuevo en un momento.';
+      imageStatus.textContent = copy.photoError;
     };
     full.src = photo.src;
   }
@@ -181,8 +256,9 @@
   function openViewer(day, album, index, tile) {
     activeAlbum = album;
     returnFocus = tile;
-    byId('viewer-title').textContent = album.title;
-    byId('viewer-day').textContent = `${day.label} · ${album.subtitle || day.date}`;
+    const localizedDay = copy.days[day.id];
+    byId('viewer-title').textContent = albumTitle(album);
+    byId('viewer-day').textContent = `${localizedDay?.label ?? day.label} · ${albumSubtitle(album) || localizedDay?.date || day.date}`;
     viewer.showModal();
     document.body.classList.add('viewer-open');
     showPhoto(index);
@@ -246,5 +322,6 @@
     if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.3) showPhoto(activeIndex + (dx < 0 ? 1 : -1));
   });
   stage.addEventListener('pointercancel', () => { swipeStart = undefined; });
+  window.siteLanguage.init(changeLanguage);
   loadGallery();
 })();

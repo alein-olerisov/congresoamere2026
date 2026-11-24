@@ -1,6 +1,11 @@
 # Herramientas, pruebas y respaldos exclusivos de este equipo.
 /.local/
-/scripts/
+/scripts/*
+!/scripts/gallery.js
+!/scripts/albums.json
+!/scripts/serve.py
+!/scripts/language.js
+!/scripts/gallery-translations.js
 /docs/
 /.vscode/
 /node_modules/
@@ -9,24 +14,24 @@ __pycache__/
 *.py[cod]
 *.log
 
-# Inventario de optimizacion; la pagina utiliza galeria/albums.json.
-/img/congreso-amere/manifest.json
+# Inventario de optimizacion; la pagina utiliza scripts/albums.json.
+/media/IMG/congreso-amere/manifest.json
 
 # Material previo sin referencias en el sitio; conservado localmente.
-/img/.gitkeep
-/img/372965.jpg
-/img/372966.png
-/img/CASA RUSA SIN FONDO.png
-/img/COPY CONGRESO 1.1.png
-/img/COPY CONGRESO 2.1.png
-/img/COPY CONGRESO ESP 1.1.png
-/img/LOGO_embajada.png
-/img/Logo _ Departamento.png
-/img/LogotipoENALLT_Bco (1).png
-/img/PPELA SIN FONDO.png
-/img/RIRE ES SIN FONDO.png
-/img/RIRE PR SIN FONDO.png
-/img/Sinfondo2.PNG
-/img/enallt-1.1.png
-/img/logo casa rusa.jpeg
-/pdf/README.md
+/media/IMG/.gitkeep
+/media/IMG/372965.jpg
+/media/IMG/372966.png
+/media/IMG/CASA RUSA SIN FONDO.png
+/media/IMG/COPY CONGRESO 1.1.png
+/media/IMG/COPY CONGRESO 2.1.png
+/media/IMG/COPY CONGRESO ESP 1.1.png
+/media/IMG/LOGO_embajada.png
+/media/IMG/Logo _ Departamento.png
+/media/IMG/LogotipoENALLT_Bco (1).png
+/media/IMG/PPELA SIN FONDO.png
+/media/IMG/RIRE ES SIN FONDO.png
+/media/IMG/RIRE PR SIN FONDO.png
+/media/IMG/Sinfondo2.PNG
+/media/IMG/enallt-1.1.png
+/media/IMG/logo casa rusa.jpeg
+/media/PDF/README.md
